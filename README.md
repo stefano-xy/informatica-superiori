@@ -15,7 +15,7 @@ Argomenti trattati:
 
 # Il materiale didattico
 
-Tutto il materiale è visibile all'indirizzo [ragazzojp.github.io/informatica-superiori](https://ragazzojp.github.io/informatica-superiori).
+Tutto il materiale è visibile all'indirizzo [informatica.pettini.eu](https://informatica.pettini.eu).
 
 ## Come modificare i contenuti
 
