@@ -30,6 +30,11 @@ remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 
 # Just The Docs
 heading_anchors: false
+gh_edit_link: true
+gh_edit_link_text: "Modifica questa pagina su GitHub."
+gh_edit_repository: "https://github.com/ragazzojp/informatica-superiori"
+gh_edit_branch: "master"
+gh_edit_view_mode: "tree"
 
 # Exclude build and bundle files
 # In addition, you can hide some topics
