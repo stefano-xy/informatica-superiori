@@ -1,17 +1,18 @@
-# In costruzione
+# Materiale didattico per corsi di informatica di scuola secondaria superiore
 
-Repository in costruzione.
-
-Conterrà materiale didattico usato nell'anno scolastico 2021-2022
+Materiale didattico usato nell'anno scolastico 2021-2022
 in alcune classi di scuola secondaria superiore presso
 l'[I.O. De Gasperi - Battaglia](https://www.comprensivonorcia.edu.it) di Norcia (PG).
 
 Argomenti trattati:
 
 - Algoritmi tramite Flowgorithm
-- Conversione dei suddetti algoritmi in Python
+- Conversione dei suddetti algoritmi in python
 - Introduzione alla programmazione tramite C++
 - Esercizi relativi
+
+Autore: [Stefano Pettini](https://www.linkedin.com/in/pettini).
+Contattatemi se il materiale vi è utile o per collaborare.
 
 # Il materiale didattico
 
@@ -69,8 +70,3 @@ bundle exec jekyll serve
 ```
 
 Potete poi aprire il sito in locale su [localhost:4000](http://localhost:4000).
-
-# Autore
-
-[Stefano Pettini](https://www.linkedin.com/in/pettini). Contattatemi se il materiale
-vi è utile o per collaborare ❤.
