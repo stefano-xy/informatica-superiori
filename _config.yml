@@ -18,11 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Informatica
+title: Informatica - Materiale didattico
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Materiale didattico di informatica sotto forma di dispense, brevi manuali, esempi
+  e una collezione di esercizi per classi di scuola secondaria superiore.
 
 # Build settings
 markdown: kramdown
