@@ -6,7 +6,6 @@ nav_order: 2
 ---
 
 # Programmare in python con Colab
-{: .no_toc }
 
 Viene ora introdotto _python_ come linguaggio di programmazione,
 Google Colab come ambiente dove poter programmare in _python_,
@@ -86,25 +85,25 @@ La cella stamperà il testo `Hello World`, perchè questo è quello che il nostr
 ha richiesto tramite l'istruzione `print`. È possibile aggiungere ulteriori celle premendo
 i pulsanti `+ Code` oppure `+ Text`, se si tratta di celle con codice oppure testuali.
 
-# Scrivere codice python partendo da Flowgorithm
+## Scrivere codice python partendo da Flowgorithm
 
 Vediamo ora come convertire i blocchi Flowgorithm in istruzioni _python_. Un algoritmo in
 Flowgorithm può essere riscritto in _python_ semplicemente traducendo blocco per blocco.
 Con un minimo di manualità, sarà poi possibile scrivere codice direttamente in _python_
 senza dover prima definire il diagramma Flowgorithm.
 
-## Dichiarazione
+### Dichiarazione
 
 Il blocco _Dichiarazione_ non è necessario in _python_ e deve essere omesso.
 
-## Lettura e Scrittura
+### Lettura e Scrittura
 
 I blocchi _Lettura_ e _Scrittura_ chiedono all’utente (lettura) o comunicano all’utente
 (scrittura) il valore di una variabile. In _python_, la lettura è effettuata
 dall'istruzione `input`, che legge una stringa. Se ci si aspetta un intero,
 la stringa deve essere convertita in intero manualmente tramite l'istruzione `int`.
 
-### Leggere una variabile di tipo stringa
+#### Leggere una variabile di tipo stringa
 
 ![](leggi1.png)
 
@@ -116,7 +115,7 @@ nome = input()
 
 Le parentesi aperte e chiuse senza nulla al loro interno sono necessarie per l'istruzione `input`. 
 
-### Leggere una variabile di tipo intero
+#### Leggere una variabile di tipo intero
 
 ![](leggi2.png)
 
@@ -130,7 +129,7 @@ L'istruzione `int` richiede invece parentesi aperte e chiuse con al loro interno
 a intero, cioè `input()` compreso delle sue parentesi, e si intende quello che `input` ha letto.
 Per questo, nel caso di lettura di interi, le parentesi sono doppie.
 
-### Leggere una variabile di tipo reale (numero decimale)
+#### Leggere una variabile di tipo reale (numero decimale)
 
 ![](leggi3.png)
 
@@ -144,7 +143,7 @@ L'istruzione `int` è sostituita da `float` in caso di numero reali, cioè numer
 La virgola dovrà però essere sostituita dal punto (`3.14` invece che `3,14`) quando questa
 viene digitata, in quanto _python_ segue il sistema anglosassone in cui si usa il punto.
 
-### Scrivere una variabile
+#### Scrivere una variabile
  
 ![](scrivi1.png)
 
@@ -158,7 +157,7 @@ print(x)
 Anche in questo caso le parentesi dell'istruzione `print` indicano al loro interno
 cosa deve essere stampato e sono necessarie.
 
-### Scrivere un'espressione
+#### Scrivere un'espressione
 
 L'istruzione `print` accetta all'interno delle parentesi espressioni anche più complesse.
 
@@ -170,7 +169,7 @@ equivale in _python_ a:
 print(x + y)
 ```
 
-### Scrivere un messaggio composto
+#### Scrivere un messaggio composto
 
 Immaginiamo di avere una vincita di 50 € a un gioco memorizzata nella variabile `vincita`.
 Vogliamo scrivere il messaggio "Hai vinto 50 euro", usando la variabile `vincita`
@@ -189,7 +188,7 @@ a `vinto` oppure `euro`. Le virgole separano i 3 testi o variabili da stampare,
 il tutto all'interno delle parentesi della funzione `print`.
 È possibile stampare 2, 3, 4 o più componenti, tutti separati da virgole.
 
-## Assegnazione (`x = …`)
+### Assegnazione (`x = …`)
 
 L’_Assegnazione_ imposta una variabile a un determinato valore, cioè assegna
 quel valore alla variabile. Se la variabile non esiste, viene dichiarata all'istante:
@@ -201,7 +200,7 @@ a quello nei diagrammi a blocchi, senza dover usare nessuna istruzione particola
 
 Le assegnazioni utilizzano l'uguale singolo `=`.
 
-### Assegnare una costante intera
+#### Assegnare una costante intera
 
 ![](assegna1.png)
 
@@ -211,7 +210,7 @@ equivale in _python_ a:
 x = 10
 ```
 
-### Assegnare una costante stringa
+#### Assegnare una costante stringa
 
 ![](assegna2.png)
 
@@ -221,7 +220,7 @@ equivale in _python_ a:
 nome = "Giovanni"
 ```
 
-### Assegnare il valore calcolato da un'espressione
+#### Assegnare il valore calcolato da un'espressione
 
 Assumendo le variabili `x` e `y` già definite e contenenti dei numeri (interi o reali):
 
@@ -233,7 +232,7 @@ equivale in _python_ a:
 z = x * 2 + y * 3
 ```
 
-## Condizione (`if … else …`)
+### Condizione (`if … else …`)
 
 Valuta una condizione, cioè un'espressione o una domanda che può avere solo risposta _vero_ o _falso_.
 In caso _vero_, il programma esegue le istruzioni della parte `if`. In caso _falso_, il programma
@@ -243,7 +242,7 @@ da eseguire. Al termine, il programma continua dritto.
 In _python_, a volte come in questo caso il codice deve essere scritto indentato,
 cioè incolonnato verso destra, rispetto a una istruzione principale. È il caso di `if` e `else`.
 
-### Condizione semplice
+#### Condizione semplice
 
 ![](condizione1.png)
 
@@ -264,7 +263,7 @@ dell'`if` e quali no.
 Gli spazi dell'indentazione sono necessari e devono essere uguali per tutte le istruzioni
 contenute nel ramo. Non mettere gli spazi o mettere spazi non uguali è considerato un errore.
 
-### Condizione con ramo else
+#### Condizione con ramo else
 
 ![](condizione2.png)
 
@@ -302,7 +301,7 @@ Alcuni esempi per comprendere meglio:
 - `(a > b and b > c) or a == c`, sia la prima che la seconda condizione deve essere vera,
   oppure la terza condizione deve essere vera.
 
-## Mentre (`while …`)
+### Mentre (`while …`)
 
 Così come il blocco _Condizione_ visto precedentemente, il blocco _Mentre_ introduce
 una condizione che deve essere scritta in forma di espressione _vero_ o _falso_.
@@ -313,7 +312,7 @@ a quando la condizione è _vera_.
 
 Le condizioni vengono scritte esattamente come le condizioni per l'istruzione `if` (vedi sopra).
 
-### Ripetizione di esempio
+#### Ripetizione di esempio
 
 ![](mentre.png)
 
@@ -326,14 +325,14 @@ while x >= 10:
   x = int(input())
 ```
 
-## Fai (`do … while`)
+### Fai (`do … while`)
 
 Non esiste codice equivalente per questo blocco in _python_.
 
 L'algoritmo deve essere modificato per esprimerlo attraverso un blocco `while` e non `do … while`,
 e successivamente riscritto in _python_ come spiegato sopra.
 
-## Indentazione multipla
+### Indentazione multipla
 
 È possibile inserire istruzioni `if` dentro `while`, `if` dentro `if`, `while` dentro `while`, ecc…
 _python_ non pone limiti a quanto il codice può essere indentato, l'importante è che l'indentazione
@@ -362,7 +361,7 @@ while x >= 0:
 print("Fine dell'esercizio")
 ```
 
-# Funzioni
+## Funzioni
 
 _python_ contiene migliaia di funzioni e può essere esteso attraverso migliaia librerie esterne,
 che a loro volta contengono spesso altre migliaia di funzioni. È un universo in rapida espansione.

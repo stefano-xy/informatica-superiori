@@ -6,7 +6,6 @@ nav_order: 1
 ---
 
 # Diagrammi di flusso con Flowgorithm
-{: .no_toc }
 
 Breve guida per installare, capire e utilizzare Flowgorithm
 e scrivere semplici algoritmi e programmi tramite diagrammi di flusso.

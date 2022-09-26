@@ -6,7 +6,6 @@ nav_order: 3
 ---
 
 # Esempi con Flowgorithm e python
-{: .no_toc }
 
 Ecco alcuni esempi di semplici algoritmi e programmi con _Flowgorithm_ e loro equivalenti in _python_.
 
