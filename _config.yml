@@ -36,6 +36,9 @@ gh_edit_link_text: "Modifica questa pagina su GitHub."
 gh_edit_repository: "https://github.com/ragazzojp/informatica-superiori"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
+callouts:
+  highlight:
+    color: green
 
 # Exclude build and bundle files
 # In addition, you can hide some topics

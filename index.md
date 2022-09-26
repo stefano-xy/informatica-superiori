@@ -9,11 +9,14 @@ nav_order: 1
 ### Benvenuti!
 
 In questo sito è raccolto del materiale didatto sotto forma di dispense,
-brevi manuali, esempi e una collezione di esercizi che ho usato nell'anno scolastico
+brevi manuali, esempi e una collezione di esercizi che sono stati usati nell'anno scolastico
 2021-2022 in alcune classi di scuola secondaria superiore presso
 l'[I.O. De Gasperi - Battaglia](https://www.comprensivonorcia.edu.it) di Norcia (PG).
 
-Se negli esercizi e negli esempi trovate riferimenti a Norcia e la Valnerina, sapete il perché 😀
+{: .highlight }
+Utilizzate questo materiale in altri istituti e in altri corsi?
+Avete materiale da aggiungere su altri linguaggi di programmazione, o altri esercizi?
+Siete i benvenuti a [contribuire](contrib.md) modificando e ampliando questo materiale.
 
 Per l'indirizzo **Turistico** (2° anno):
 
@@ -27,8 +30,4 @@ Per l'indirizzo **Sistemi Informativi Aziendali** (3° anno):
 - Introduzione alla programmazione tramite C++. _(in via di pubblicazione)_
 - Esempi e esercizi relativi.
 
-Pubblico questo materiale in modo che non si perda e possa essere di aiuto anche
-ad altri corsi in altri istituti italiani. Auguro a tutti _buon lavoro_ e invito tutti,
-studenti e insegnanti, a [contribuire](contrib.md) modificando e ampliando questo materiale.
-
-❤ _prof. [Stefano Pettini](https://www.linkedin.com/in/pettini)_
+_Buon lavoro_ a insegnanti e studenti.
