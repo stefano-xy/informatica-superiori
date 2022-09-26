@@ -20,7 +20,7 @@ nell'indirizzo **Turistico** (2° anno), con il seguente programma:
   - Scrivere algoritmi tramite diagrammi di flusso
   - Leggere e scrivere variabili
   - Blocchi condizionali e ripetitivi
-- Linguaggio di programmazione _python_
+- Linguaggio di programmazione _[python](codice/index.md)_
   - Istruzioni _python_ corrispondenti ai blocchi dei diagrammi di flusso
   - Indentazione in _python_
   - Utilizzo di notebooks in _Google Colab_
