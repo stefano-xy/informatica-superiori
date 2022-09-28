@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-06 05:01:21 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMDQ6NTk6MTggIjsyNTU1"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMDU6MDE6MjEgIjsxOzI2NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3" type="String" array="False" size=""/>
+            <output expression="&quot;Scrivi 3 nomi di persona&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <if expression="n1 == n2 &amp;&amp; n2 == n3">
+                <then>
+                    <output expression="&quot;Tutti i nomi sono uguali&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n1 == n2 || n2 == n3 || n1 == n3">
+                        <then>
+                            <output expression="&quot;Due persone hanno lo stesso nome&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Tutti i nomi sono diversi&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

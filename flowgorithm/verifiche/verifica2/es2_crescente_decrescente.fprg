@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-06 04:57:30 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMDQ6NTQ6NTggIjsyNTU0"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMDQ6NTc6MzAgIjsxOzI2NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci 4 numeri&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="d"/>
+            <if expression="a &lt; b &amp;&amp; b &lt; c &amp;&amp; c &lt; d">
+                <then>
+                    <output expression="&quot;I numeri sono in ordine crescente&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a &gt; b &amp;&amp; b &gt; c &amp;&amp; c &gt; d">
+                        <then>
+                            <output expression="&quot;I numeri sono in ordine decrescente&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;I numeri non sono in nessun ordine particolare&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -30,3 +30,4 @@ nell'indirizzo **Turistico** (2° anno), con il seguente programma:
   - Nome e età degli utenti
   - Stampare numeri
   - Contare persone con un determinato nome o città di residenza
+- Proposte per le [verifiche](verifiche/index.md).

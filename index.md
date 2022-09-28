@@ -26,6 +26,7 @@ Per l'indirizzo **Turistico** (2° anno):
 - [Conversione](flowgorithm/codice/index.md#scrivere-codice-python-partendo-da-flowgorithm)
   dei programmi _Flowgorithm_ in _python_.
 - [Esempi](flowgorithm/esempi/index.md) e [esercitazioni](flowgorithm/esercitazioni/index.md) relative.
+- Proposte per le [verifiche](flowgorithm/verifiche/index.md).
 
 Per l'indirizzo **Sistemi Informativi Aziendali** (3° anno):
 

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-06 04:54:52 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMDQ6NTI6NTIgIjsyNTQ2"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMDQ6NTQ6NTIgIjsxOzI2NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quale tabellina stampare?&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="1"/>
+            <while expression="i &lt;= 10">
+                <output expression="n &amp; &quot;x&quot; &amp; i &amp; &quot;=&quot; &amp; (n * i)" newline="True"/>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

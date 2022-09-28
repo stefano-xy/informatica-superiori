@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-06 11:29:08 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMTE6MjQ6MjEgIjsyNTM5"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNi0wNjsiMTE6Mjk6MDggIjsxOzI2NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="anni, somma, media, fratelli, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Come ti chiami?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Quanti anni hai?&quot;" newline="True"/>
+            <input variable="somma"/>
+            <output expression="nome &amp; &quot; quanti fratelli o sorelle hai?&quot;" newline="True"/>
+            <input variable="fratelli"/>
+            <assign variable="i" expression="0"/>
+            <while expression="i &lt; fratelli">
+                <output expression="&quot;Come si chiama tua fratello o sorella?&quot;" newline="True"/>
+                <input variable="nome"/>
+                <output expression="&quot;Quanti anni ha &quot; &amp; nome &amp; &quot;?&quot;" newline="True"/>
+                <input variable="anni"/>
+                <assign variable="somma" expression="somma + anni"/>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <assign variable="media" expression="somma / (fratelli + 1)"/>
+            <output expression="&quot;Tu e i tuoi fratelli e sorelle avete in media &quot; &amp; media &amp; &quot; anni&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
