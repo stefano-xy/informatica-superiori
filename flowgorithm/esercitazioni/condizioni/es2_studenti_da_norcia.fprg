@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-12 09:22:24 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMDk6MDg6NTUgIjsyNTUw"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMDk6MjI6MjQgIjsxOzI2NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c1, c2, c3, c4" type="String" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Scrivi 4 citt&#224;&quot;" newline="True"/>
+            <input variable="c1"/>
+            <input variable="c2"/>
+            <input variable="c3"/>
+            <input variable="c4"/>
+            <assign variable="n" expression="0"/>
+            <if expression="c1 = &quot;Norcia&quot;">
+                <then>
+                    <assign variable="n" expression="n + 1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c2 = &quot;Norcia&quot;">
+                <then>
+                    <assign variable="n" expression="n + 1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c3 = &quot;Norcia&quot;">
+                <then>
+                    <assign variable="n" expression="n + 1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c4 = &quot;Norcia&quot;">
+                <then>
+                    <assign variable="n" expression="n + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="n &amp; &quot; studenti vengono da Norcia&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

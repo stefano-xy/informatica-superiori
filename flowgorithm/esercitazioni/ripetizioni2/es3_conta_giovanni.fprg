@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-29 11:16:22 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNS0yOTsiMTE6MTM6NTIgIjsyNTQ1"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNS0yOTsiMTE6MTY6MjIgIjsxOzI2NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, giovanni" type="Integer" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <assign variable="giovanni" expression="0"/>
+            <while expression="i &lt; 10">
+                <output expression="&quot;Come ti chiami?&quot;" newline="True"/>
+                <input variable="nome"/>
+                <if expression="nome = &quot;Giovanni&quot;">
+                    <then>
+                        <assign variable="giovanni" expression="giovanni + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <output expression="giovanni &amp; &quot; persone si chiamano Giovanni&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

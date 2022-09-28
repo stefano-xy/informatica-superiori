@@ -20,16 +20,16 @@ Siete i benvenuti a [contribuire](contrib.md) modificando e ampliando questo mat
 
 Per l'indirizzo **Turistico** (2° anno):
 
-- Algoritmi e programmi tramite _[Flowgorithm](flowgorithm/guida/index.md)_.
+- Algoritmi e programmi tramite _[Flowgorithm](flowgorithm/diagrammi/index.md)_.
 - Introduzione ai notebook di _[Colab](flowgorithm/codice/index.md#come-utilizzare-colab)_
   per programmare in _[python](flowgorithm/codice/index.md)_.
 - [Conversione](flowgorithm/codice/index.md#scrivere-codice-python-partendo-da-flowgorithm)
   dei programmi _Flowgorithm_ in _python_.
-- [Esempi](flowgorithm/esempi/index.md) e esercizi relativi.
+- [Esempi](flowgorithm/esempi/index.md) e [esercitazioni](flowgorithm/esercitazioni/index.md) relative.
 
 Per l'indirizzo **Sistemi Informativi Aziendali** (3° anno):
 
 - Introduzione alla programmazione tramite C++. _(in via di pubblicazione)_
-- Esempi e esercizi relativi.
+- Esempi e esercitazioni relativi. _(in via di pubblicazione)_
 
 _Buon lavoro_ a insegnanti e studenti.

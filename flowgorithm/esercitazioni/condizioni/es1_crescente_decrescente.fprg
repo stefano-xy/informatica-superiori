@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-12 09:08:52 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMDg6MzU6NDQgIjsyNTQ3"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMDk6MDg6NTIgIjsxOzI2NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserire 3 numeri&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <if expression="n1 &lt; n2 &amp;&amp; n2 &lt; n3">
+                <then>
+                    <output expression="&quot;Ordine crescente&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n1 &gt; n2 &amp;&amp; n2 &gt; n3">
+                        <then>
+                            <output expression="&quot;Ordine decrescente&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="n1 = n2 &amp;&amp; n2 = n3">
+                                <then>
+                                    <output expression="&quot;Numeri uguali&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Nessun ordine particolare&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

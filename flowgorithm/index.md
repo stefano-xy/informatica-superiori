@@ -25,7 +25,7 @@ nell'indirizzo **Turistico** (2° anno), con il seguente programma:
   - Indentazione in _python_
   - Utilizzo di notebooks in _Google Colab_
 - [Diagrammi di esempio](esempi/index.md) con codice _python_ corrispondente
-- Esercitazioni in laboratorio con diagrammi a blocchi e in _python_
+- [Esercitazioni in laboratorio](esercitazioni/index.md) con diagrammi a blocchi e in _python_
   - Esercizi numerici
   - Nome e età degli utenti
   - Stampare numeri

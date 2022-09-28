@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-12 10:54:08 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMTA6NTA6MjEgIjsyNTMy"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMTA6NTQ6MDggIjsxOzI2NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <do expression="a != b">
+                <output expression="&quot;Inserire due numeri&quot;" newline="True"/>
+                <input variable="a"/>
+                <input variable="b"/>
+                <if expression="a &gt; b">
+                    <then>
+                        <output expression="a &amp; &quot; &#232; il maggiore&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="a &lt; b">
+                            <then>
+                                <output expression="b &amp; &quot; &#232; il maggiore&quot;" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </do>
+            <output expression="&quot;I due numeri sono uguali, grazie&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

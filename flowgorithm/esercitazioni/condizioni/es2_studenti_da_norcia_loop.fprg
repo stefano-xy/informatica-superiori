@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-12 10:05:17 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMDk6MDg6NTUgIjsyNTUw"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wNC0xMjsiMTA6MDU6MTcgIjszOzI2NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="String" array="False" size=""/>
+            <declare name="n, domande, studenti" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quanti studenti?&quot;" newline="True"/>
+            <input variable="studenti"/>
+            <assign variable="n" expression="0"/>
+            <assign variable="domande" expression="0"/>
+            <output expression="&quot;Scrivi &quot; &amp; studenti &amp; &quot; citt&#224;&quot;" newline="True"/>
+            <while expression="domande &lt; studenti">
+                <input variable="c"/>
+                <if expression="c = &quot;Norcia&quot;">
+                    <then>
+                        <assign variable="n" expression="n + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="domande" expression="domande + 1"/>
+            </while>
+            <output expression="n &amp; &quot; studenti vengono da Norcia&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
