@@ -19,6 +19,8 @@ Per installare Flowgorithm, seguire le istruzioni sul sito ufficiale
 [flowgorithm.org](http://flowgorithm.org/). Il programma è disponibile per Windows,
 ma con fatica può essere usato anche su Mac e Linux seguendo le istruzioni sul sito.
 
+[Scarica Flowgorithm](http://flowgorithm.org/download/index.html){: .btn }
+
 ## Utilizzo
 
 Aprire Flowgorithm cercandone l'icona sul desktop o nel menù _Start_.
@@ -135,7 +137,7 @@ Le condizioni possono essere composte insieme tramite operazioni E (`&&`) e O (`
 Alcuni esempi per comprendere meglio:
 - `a > b && c < d`, vera se `a` è maggiore di `b` E `c` è minore di `d`,
   cioè se sia la prima che la seconda condizione sono vere. Entrambe devono essere vere (E).
-- `nome = "Carlo" || a == b`, vera se `nome` è Carlo O `a` è uguale a `b`,
+- `nome == "Carlo" || a == b`, vera se `nome` è Carlo O `a` è uguale a `b`,
    cioè se la prima condizione oppure la seconda condizione (o entrambe) sono vere (O).
    Almeno una deve essere vera.
 - `a > b && b > c && c > d`, tutte e 3 le condizioni devono essere vere.

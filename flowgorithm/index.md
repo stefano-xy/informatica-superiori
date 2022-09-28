@@ -15,7 +15,7 @@ nell'indirizzo **Turistico** (2° anno), con il seguente programma:
   - Pensiero computazionale
   - Algoritmi
   - Input e output
-- [Diagrammi di flusso](guida/index.md)
+- [Diagrammi di flusso](diagrammi/index.md)
   - Software _Flowgorithm_
   - Scrivere algoritmi tramite diagrammi di flusso
   - Leggere e scrivere variabili
