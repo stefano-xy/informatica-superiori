@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-22 09:16:55 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wMy0yMjsiMDg6MzI6NDYgIjsyNTQ2"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wMy0yMjsiMDk6MTY6NTUgIjsxOzI2NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eta" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quanti anni hai?&quot;" newline="True"/>
+            <input variable="eta"/>
+            <if expression="eta&gt;=18">
+                <then>
+                    <output expression="&quot;puoi guidare una macchina&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="eta&gt;=14">
+                        <then>
+                            <output expression="&quot;puoi guidare un motorino&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="eta&gt;=4">
+                                <then>
+                                    <output expression="&quot;puoi andare in bicicletta&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;puoi camminare&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

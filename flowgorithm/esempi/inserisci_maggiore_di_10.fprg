@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-22 09:53:04 "/>
+        <attribute name="created" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wMy0yMjsiMDk6MzM6MzMgIjsyNTQ0"/>
+        <attribute name="edited" value="c3RlZmE7U1RFRkFOTy1YUFM7MjAyMi0wMy0yMjsiMDk6NTM6MDQgIjsxOzI2NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;inserisci un numero maggiore di 10&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n&lt;=10">
+                <output expression="&quot;sbagliato riprova&quot;" newline="True"/>
+                <input variable="n"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
