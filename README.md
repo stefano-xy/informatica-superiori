@@ -35,11 +35,11 @@ consultare la [documentazione ufficiale](https://jekyllrb.com/docs).
 
 ## Come riprodurre il sito in locale
 
-Per generare e testate il sito in locale è necessario avere un ambienti di sviluppo _Ruby_ con _Bundler_.
+Per generare e testate il sito in locale è necessario avere un ambiente di sviluppo _Ruby_ con _Bundler_.
 
 ### Installare Ruby, Bundler e Jekyll
 
-Su _Ubuntu_ o _Debian_:
+Su _Linux_, sia _Ubuntu_ che _Debian_:
 
 ```
 sudo apt install bundler ruby-dev zlib1g-dev
@@ -47,7 +47,16 @@ sudo apt install bundler ruby-dev zlib1g-dev
 
 Gli ultimi due pacchetti sono necessari per compilare alcune dipendenze.
 
-Su _MacOS_ o _Windows_, seguire le istruzioni di installazione di _Ruby_ e _Bundler_
+Su _macOS_:
+
+```
+brew install ruby
+```
+
+Seguire le istruzioni visualizzate per modificare `PATH` in `.zshrc`.
+Chiudere e riaprire il terminale, verificare che Ruby 3 sia installato con `ruby --version`.
+
+Su _Windows_, seguire le istruzioni di installazione di _Ruby_ e _Bundler_
 come suggerito nella [guida di installazione](https://jekyllrb.com/docs/installation) di _Jekyll_.
 
 Una volta che _Ruby_ and _Bundler_ sono installati, usare i seguenti comandi per
