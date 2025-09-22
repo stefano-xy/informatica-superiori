@@ -8,10 +8,14 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "github-pages", "~> 232"
-end
+gem "jekyll", "~> 3.10.0"
+gem "jekyll-relative-links", "~> 0.6.1"
+gem "jekyll-default-layout", "~> 0.1.5"
+gem "jekyll-gist", "~> 1.5.0"
+gem "kramdown", "~> 2.5.1"
+gem "kramdown-parser-gfm", "~> 1.1.0"
+gem "just-the-docs", "~> 0.10.1"
+gem "jemoji", "~> 0.13.0"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

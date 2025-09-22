@@ -18,26 +18,39 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Source directory for the whole site
+source: docs
+
 title: Informatica - Materiale didattico
 description: >-
   Materiale didattico di informatica sotto forma di dispense, brevi manuali, esempi
   e una collezione di esercizi per classi di scuola secondaria superiore.
 
+plugins:
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-relative-links
+  - jemoji
+
 # Build settings
+repository: stefano-xy/informatica-superiori
 markdown: kramdown
-# GitHub Pages doesn't support themes installed as gems
-remote_theme: just-the-docs/just-the-docs@v0.10.1
+theme: just-the-docs
 color_scheme: informatica
 kramdown:
   toc_levels: "2,3"
+relative_links:
+  enabled: true
+  collections: true
 
 # Just The Docs
 heading_anchors: false
 lang: "it"
 gh_edit_link: true
 gh_edit_link_text: "Modifica questa pagina su GitHub."
-gh_edit_repository: "https://github.com/ragazzojp/informatica-superiori"
-gh_edit_branch: "master"
+gh_edit_repository: "https://github.com/stefano-xy/informatica-superiori"
+gh_edit_source: "docs"
+gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 callouts:
   highlight:
@@ -46,6 +59,7 @@ callouts:
 # Exclude build and bundle files
 # In addition, you can hide some topics
 exclude:
+  - .github
   - Gemfile
   - Gemfile.lock
   - node_modules

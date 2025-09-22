@@ -11,7 +11,7 @@ Questo materiale didattico è _aperto_ (open source) e distribuito con licenza C
 È possibile modificarlo, elaborarlo, commercializzarlo, includerlo in altri progetti ma
 questi devono essere anch'essi rilasciati sotto licenza Creative Commons.
 
-Il [codice sorgente](https://github.com/ragazzojp/informatica-superiori)
+Il [codice sorgente](https://github.com/stefano-xy/informatica-superiori)
 di questo sito è ospitato su _GitHub_.
 
 _GitHub_ è il più grande sito di collaborazione online per progetti software open source e non solo.
@@ -35,7 +35,7 @@ il termine di _git_ per indicare una qualsiasi modifica del _repository_, cioè
 del luogo in cui il codice sorgente del sito è conservato.
 
 Per maggiori informazioni e accedere al codice sorgente, consultare il
-[repository del materiale didattico](https://github.com/ragazzojp/informatica-superiori)
+[repository del materiale didattico](https://github.com/stefano-xy/informatica-superiori)
 su _GitHub_.
 
 Le vostre _Pull Request_ sono benvenute!

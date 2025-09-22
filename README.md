@@ -28,7 +28,7 @@ Per maggiori informazioni, consultare la relativa guida di
 [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll).
 
 Ogni file markdown `.md` è scansionato e trasformato in una pagine HTML automaticamente.
-Sono inclusi anche i file in sottodirectory. L'homepage è contenuta in `index.md`.
+Sono inclusi anche i file in sottodirectory. L'homepage è contenuta in `docs/index.md`.
 
 Per ulteriori dettagli su come scrivere un sito web statico tramite _Jekyll_,
 consultare la [documentazione ufficiale](https://jekyllrb.com/docs).
