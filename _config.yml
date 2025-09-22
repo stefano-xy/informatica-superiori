@@ -26,7 +26,7 @@ description: >-
 # Build settings
 markdown: kramdown
 # GitHub Pages doesn't support themes installed as gems
-remote_theme: just-the-docs/just-the-docs@v0.5.4
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 color_scheme: informatica
 kramdown:
   toc_levels: "2,3"
