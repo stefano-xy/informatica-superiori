@@ -3,17 +3,17 @@ title: 2TUR
 layout: page
 has_children: true
 has_toc: false
-nav_order: 2
+nav_order: 3
 ---
 
-# Materiale didattico indirizzo turistico, 2° anno
+# Turistico, 2° anno
 
 Il corso richiede questi software o siti:
 - [Flowgorithm](http://flowgorithm.org/download/index.html), solamente per _Windows_.
 - [Google Colab](https://colab.research.google.com).
 
-Il materiale in questa sezione è stato utilizzato nel corso di informatica
-nell'indirizzo **Turistico** (2° anno), con il seguente programma:
+Il materiale in questa sezione è stato utilizzato nel corso di **Informatica**
+dell'indirizzo Turistico (2° anno), con il seguente programma:
 
 - Concetti di base.
   - Pensiero computazionale.
