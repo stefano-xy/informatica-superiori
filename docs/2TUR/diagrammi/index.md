@@ -1,6 +1,6 @@
 ---
 title: Diagrammi di flusso
-parent: Flowgorithm + python
+parent: 2TUR
 layout: page
 nav_order: 1
 ---

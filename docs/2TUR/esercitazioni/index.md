@@ -1,6 +1,6 @@
 ---
 title: Esercitazioni e soluzioni
-parent: Flowgorithm + python
+parent: 2TUR
 layout: page
 nav_order: 4
 ---

@@ -1,6 +1,6 @@
 ---
 title: python e Colab
-parent: Flowgorithm + python
+parent: 2TUR
 layout: page
 nav_order: 2
 ---

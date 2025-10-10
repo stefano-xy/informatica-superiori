@@ -1,14 +1,18 @@
 # Materiale didattico per corsi di informatica di scuola secondaria superiore
 
-Materiale didattico usato nell'anno scolastico 2021-2022
-in alcune classi di scuola secondaria superiore presso
-l'[I.O. De Gasperi - Battaglia](https://www.comprensivonorcia.edu.it) di Norcia (PG).
+Materiale didattico è stato usato a partire dell'anno scolastico 2021-2022
+in alcune classi di scuola secondaria superiore dei seguenti indirizzi:
 
-Argomenti trattati:
+- **2INF** - informatico
+- **2TUR** - turistico
+- **3SIA** - sistemi informativi aziendali
 
+Alcuni argomenti trattati:
+
+- Sistema di numerazione binario e esadecimale, conversioni
 - Algoritmi tramite Flowgorithm
-- Conversione dei suddetti algoritmi in python
-- Introduzione alla programmazione tramite C++
+- Conversione dei suddetti algoritmi in _python_
+- Introduzione alla programmazione tramite _C++_
 - Esercizi relativi
 
 Autore: [Stefano Pettini](https://www.linkedin.com/in/pettini).
@@ -21,7 +25,7 @@ Tutto il materiale è visibile all'indirizzo [informatica.pettini.eu](https://in
 ## Come modificare i contenuti
 
 Il materiale è pubblicato tramite _GitHub Pages_ all'indirizzo indicato sopra
-ed è aggiornato automaticamente a ogni commit. Per contribuire, aprire una PR.
+ed è aggiornato automaticamente a ogni commit. Per contribuire, aprire una PR su _GitHub_.
 
 Il sito è generato tramite [Jekyll](https://jekyllrb.com).
 Per maggiori informazioni, consultare la relativa guida di
