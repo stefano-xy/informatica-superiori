@@ -6,6 +6,6 @@ has_toc: false
 nav_order: 2
 ---
 
-# Informatico, 2° anno
+# Scienze e Tecnologie Applicate (STA) per indirizzo Informatico, 2° anno
 
 _(in via di pubblicazione)_

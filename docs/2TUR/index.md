@@ -6,9 +6,9 @@ has_toc: false
 nav_order: 3
 ---
 
-# Turistico, 2° anno
+# Informatica per indirizzo Turistico, 2° anno
 
-Il corso richiede questi software o siti:
+Il corso richiede questi software e siti:
 - [Flowgorithm](http://flowgorithm.org/download/index.html), solamente per _Windows_.
 - [Google Colab](https://colab.research.google.com).
 

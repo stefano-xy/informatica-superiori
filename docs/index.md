@@ -13,7 +13,6 @@ brevi manuali, esempi e una collezione di esercizi che sono stati usati
 in alcune classi di istituti superiori di secondo grado.
 
 {: .highlight }
-Utilizzate questo materiale in altri istituti e in altri corsi?
 Avete materiale da aggiungere su altri linguaggi di programmazione, o altri esercizi?
 Siete i benvenuti a [contribuire](contrib.md) modificando e ampliando questo materiale.
 

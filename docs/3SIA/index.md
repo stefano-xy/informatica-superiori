@@ -6,6 +6,6 @@ has_toc: false
 nav_order: 4
 ---
 
-# Sistemi Informativi Aziendali, 3° anno
+# Informatica per indirizzo Sistemi Informativi Aziendali, 3° anno
 
 _(in via di pubblicazione)_
