@@ -8,9 +8,9 @@ nav_order: 3
 # Codifiche
 
 Vediamo ora come è possibile codificare le informazioni
-come testi, immagini, audio e video tramite byte.
+come testi, immagini, audio e video tramite _byte_.
 
-Convenzionalmente, i _byte_ sono rappresentati sotto forma esadecimale.
+Convenzionalmente, i _byte_ sono rappresentati sotto forma [esadecimale](../esadecimale/index.md).
 
 1. TOC
 {: toc }

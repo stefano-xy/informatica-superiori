@@ -15,7 +15,7 @@ dell'indirizzo Informatico (2° anno), con il seguente programma:
   - Conversione da decimale e binario e viceversa.
   - Operazioni di somma fra numeri binari.
   - Operazioni di `AND`, `OR`, `NOT` bit per bit.
-- Sistema di numerazione esadecimale.
+- Sistema di numerazione [esadecimale](esadecimale/index.md).
   - L'esadecimale e il suo uso sul web, colori RGB.
   - Conversione da decimale a esadecimale e viceversa.
 - [Codifiche](codifiche/index.md).
