@@ -42,4 +42,4 @@ dell'indirizzo Informatico (2° anno), con il seguente programma:
   - Fogli di stile _CSS_.
   - _JavaScript_.
 - Pagine web di esempio con codice corrispondente. 
-- Proposte per le verifiche.
+- Proposte per le [verifiche](verifiche/index.md).

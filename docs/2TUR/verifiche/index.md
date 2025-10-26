@@ -7,8 +7,7 @@ nav_order: 5
 
 # Verifiche
 
-Alcune proposte da utilizzare per le verifiche. Ricordarsi naturalmente di adattarle
-alla propria classe in quanto questo materiale didattico è pubblico.
+Alcune proposte da utilizzare per le verifiche.
 
 1. TOC
 {: toc }
