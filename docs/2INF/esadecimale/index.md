@@ -60,8 +60,10 @@ Per finire, arrivati a **FF** passiamo a **100**:
 
 ... FB, FC, FD, FE, FF, **100**, 101, 102, ...
 
-Da **0** a **FF** sono i primi 256 numeri.
-256 in informatica è una cifra _molto tonda_, in quanto
+I primi 256 numeri si scrivono da **0** (0) a **FF** (255).
+
+{: .highlight }
+**256** in informatica è una cifra _molto tonda_, in quanto
 è una potenza del 2, per la precisione 2^8, e anche 8 stesso
 è una potenza del 2. In quanto un [byte](../codifiche/index.md#byte)
 contiene 8 bit, con i numeri esadecimali da **00** a **FF**
@@ -76,7 +78,66 @@ il valode dei _bit_ bassi.
 _Più comodo di così?_ 😊
 
 ## Da esadecimale a decimale
-_(in via di pubblicazione)_
+
+Così come per i numeri [decimali](../binario/index.md#numeri-decimali) e
+[binari](../binario/index.md#da-binario-a-decimale), possiamo scomporre un
+numero esadecimale in potenze del 16 e convertirlo in decimale,
+ricordandosi sempre il valore decimale corrispondente alle lettere da **A** a **F**.
+
+Esempio:
+
+```math
+0xA5E = 10 * 16^2 + 5 * 16^1 + 14 * 16^0
+  321
+```
+
+Abbiamo indicato per chiarezza le posizioni, che corrispondono agli
+esponenti delle potenze del 16, e il prefisso `0x` convenzionalmente usato
+per indicare un numero esadecimale e non confonderlo con un numero
+di un altro sistema di numerazione. Abbiamo usato `0b` per i binari.
+Il prefisso non ha alcun effetto nei calcoli e va ignorato.
+
+Notiamo anche che **A** è stato scritto come **10**
+mentre **E** è stato scritto come **14** in decimale.
+
+Completiamo il calcolo:
+
+```math
+0xA5E = 10 * 256 + 5 * 16 + 14 = 2560 + 80 + 14 = 2654
+```
+
+Il numero esadecimale **A5E** corrisponde al decimale **2654**.
+
+I calcoli sono più complessi che per il binario, ma il procedimento è lo stesso.
+
+Altri esempi:
+
+```math
+0x8C0 = 8 * 16^2 + 12 * 16
+      = 8 * 256  + 12 * 16 = 2048 + 192 = 2240
+
+0x9AA3 = 9 * 16^3 + 10 * 16^2 + 10 * 16^1 + 3 * 16^0
+       = 9 * 4096 + 10 * 256  + 10 * 16   + 3 = 36864 + 2560 + 160 + 3 = 39587
+
+0xC007A = 12 * 16^4  + 7 * 16^1 + 10 * 16^0
+        = 12 * 65536 + 7 * 16   + 10 = 786432 + 112 + 10 = 786554
+```
+
+Bastano poche cifre esadecimali per creare numeri decimali molto grandi.
+
+Alcuni numeri speciali:
+
+```math
+0x0 = 0
+0x8 = 8
+0x10 = 16
+0x80 = 128
+0x100 = 256
+```
+
+Notate che in esadecimale **80** è la metà di **100** così come **8** è la metà di **10**.
+Sembra strano ma non lo è, se si considera che dopo l'8 vengono altre 8 cifre
+e non 2 prima di arrivare a 10.
 
 ## Da decimale a esadecimale
 _(in via di pubblicazione)_
