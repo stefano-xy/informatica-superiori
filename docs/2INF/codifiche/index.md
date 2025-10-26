@@ -39,7 +39,7 @@ Tutti i possibili valori di un _byte_ possono anche essere rappresentati
 in esadecimale, con i numeri a due cifre
 [esadecimali](../esadecimale/index.md#contare-in-esadecimale) da **00** a **FF**.
 
-Oltre ai numero interi, è possibile rappresentare altro.
+Oltre ai numeri interi, è possibile rappresentare altro.
 
 Vedremo che con un solo _byte_ è possibile rappresentare una lettera
 dell'alfabeto latino, cioè l'alfabeto in comune alle lingue europee,
@@ -79,7 +79,63 @@ bisogna tentare di capire dal contesto quale delle due si intenda.
 Sì, si fa una _gran confusione_.
 
 ## Codifica di testo ASCII
-_(in via di pubblicazione)_
+
+Vediamo ora come convertire i byte del testo.
+
+Esiste una tabella, chiamata tabella ASCII, che associa a ogni lettera, numero,
+simbolo un ben determinato byte. Per i caratteri più semplici questa tabella può bastare.
+
+![Tabella ASCII](ascii_table.png)
+
+La tabella mostra come codificare alcuni caratteri (in rosso) tramite un singolo
+_byte_, indicato sia come decimale (_dec_) che esadecimale (_hex_).
+Useremo sempre la rappresentazione esadecimale 😅, quindi per semplicità
+tralasceremo il prefisso `0x`.
+
+La tabella è divisa in 4 parti:
+
+- Caratteri da **00** a **1F**: non più utilizzati, venivano utilizzati
+  da vecchi terminali e stampanti ad aghi secoli fa.
+  Fanno eccezioni i caratteri **CR** e **LF** che servono per codificare l'andata a capo,
+  ad esempio quando si preme _invio_ sulla tastiera.
+  
+- Caratteri da **20** a **3F**: alcuni simboli e numeri. Notate il carattere
+  **20** che è il carattere _spazio_, quello che serve per separare parole
+  e viene inserito premendo _spazio_ sulla tastiera. Non è uno spazio vuoto,
+  è esso stesso un carattere.
+
+- Caratteri da **40** a **5F**: lettere _maiuscole_.
+
+- Caratteri da **60** a **7F**: lettere _minuscole_.
+
+La tabella contiene metà dei valori possibili per un _byte_, cioè 128 caratteri.
+L'intervallo da **80** a **FF** non è presente. Esistono tabelle che estendono
+la tabella ASCII con altri 128 caratteri, ma è una tecnica che non si usa più,
+soppiantata da Unicode (vedi di [seguito](#codifica-di-testo-unicode)).
+
+### Il mio nome in ASCII
+
+Codifichiamo il nostro nome in ASCII! Ad esempio _Mario Rossi_ è scritto così:
+
+```text
+4D 61 72 69 6F 20 52 6F 73 73 69
+```
+
+Notate il _byte_ **20** usato per codificare lo spazio fra _Mario_ e _Rossi_.
+Notate anche il _byte_ **73** ripetuti 2 volte di file: solo le doppie **s** di _Rossi_.
+
+### ASCII Art!
+
+Curiosità: mai sentito parlare di [ASCII art](https://it.wikipedia.org/wiki/ASCII_art)?
+
+C'è chi disegna immagini usando solo caratteri!
+Il nome di ASCII Art deriva proprio dalla tabella ASCII.
+
+![ASCII Art](ascii_art.png)
+
+L'immagine viene da [qui](https://asciiart.website/art/787).
+
+Ci sono siti che convertono foto in ASCII art. Cercateli con Google.
 
 ## Codifica di testo Unicode
 _(in via di pubblicazione)_
