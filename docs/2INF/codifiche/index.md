@@ -34,7 +34,10 @@ ed è l'unità di misura fondamentale dell'informazione.
 
 Calcolando tutte le possibili combinazioni di _zero_ e _uno_,
 abbiamo visto che un _byte_ può contenere 256 possibili valori che,
-convenzionalmente, rappresentano i numeri da `0` a `255`.
+convenzionalmente, rappresentano i numeri da **0** a **255** in decimale.
+Tutti i possibili valori di un _byte_ possono anche essere rappresentati
+in esadecimale, con i numeri a due cifre
+[esadecimali](../esadecimale/index.md#contare-in-esadecimale) da **00** a **FF**.
 
 Oltre ai numero interi, è possibile rappresentare altro.
 
