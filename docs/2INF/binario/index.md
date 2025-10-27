@@ -86,7 +86,7 @@ descritto con le potenze del 2 invece che del 10, dove ogni cifra
 
 Anche in questo caso abbiamo indicato sotto ogni cifra la sua posizione, per chiarezza.
 
-Il prefisso `0b` serve per indicare che il numero è binario, e non confonderlo
+Il prefisso `0b` serve per indicare che il numero è binario e non confonderlo
 con un numero decimale. Per i numeri [esadecimali](../esadecimale/index.md)
 utilizziamo invece il prefisso prefisso `0x`. Senza prefisso intendiamo numeri decimali.
 Il prefisso non ha alcun effetto nei calcoli e va ignorato.
@@ -119,7 +119,68 @@ Altri esempi di conversioni da binario e decimale:
 ```
 
 ## Da decimale a binario
-_(in via di pubblicazione)_
+
+Se la conversione da binario a decimale si effettua moltiplicando
+le cifre per varie potenze del 2, la conversione opposta da decimale
+a binario di effettua dividendo il numero da convertire più volte sempre per 2.
+
+{: .highlight }
+I resti delle divisioni compongono il numero binario.
+
+Esempio, convertiamo **25** in binario. Dall'esempio precedente sappiamo che il
+risultato dovrà essere **11001** ma vediamo come calcolarlo.
+
+```math
+25 / 2 = 12 con resto 1
+12 / 2 =  6 con resto 0
+ 6 / 2 =  3 con resto 0
+ 3 / 2 =  1 con resto 1
+ 1 / 2 =  0 con resto 1
+```
+
+Ci fermiamo quando otteniamo il quoziente **0**, ricordandoci però di considerare
+il resto di quest'ultima divisione.
+
+{: .highlight }
+Leggendo i resti **dal basso verso l'alto** otteniamo **11001**,
+che è il numero binario cercato.
+
+Possiamo rappresentare questa catena di divisioni in un modo più agevole,
+eliminando la dicitura _diviso 2_ e lasciando solo i resti:
+
+| Valore | Resto della divisione per 2 |
+|-------:|:----------------------------|
+|    25  |  1                          |
+|    12  |  0                          |
+|     6  |  0                          |
+|     3  |  1                          |
+|     1  |  1                          |
+|     0  |                             |
+
+Il calcolo del resto si può fare a mente: se il valore da dividere è dispari,
+il resto sarà **1** mentre se il valore da dividere è pari
+il resto sarà **0**. Vedremo che questo semplice trucco
+non può essere usato per le conversioni in [esadecimale](../esadecimale/index.md#da-decimale-a-esadecimale).
+
+Facciamo un altro esempio con il numero **1193**.
+
+| Valore | Resto della divisione per 2 |
+|-------:|:----------------------------|
+|  1193  |  1                          |
+|   596  |  0                          |
+|   298  |  0                          |
+|   149  |  1                          |
+|    74  |  0                          |
+|    37  |  1                          |
+|    18  |  0                          |
+|     9  |  1                          |
+|     4  |  0                          |
+|     2  |  0                          |
+|     1  |  1                          |
+|     0  |                             |
+
+Leggendo i resti **dal basso verso l'alto** otteniamo **10010101001**,
+che è il numero binario cercato.
 
 ## Somma fra numeri binari
 _(in via di pubblicazione)_
