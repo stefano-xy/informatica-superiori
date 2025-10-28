@@ -128,10 +128,10 @@ Bastano poche cifre esadecimali per creare numeri decimali molto grandi.
 Alcuni numeri speciali:
 
 ```math
-0x0 = 0
-0x8 = 8
-0x10 = 16
-0x80 = 128
+  0x0 = 0
+  0x8 = 8
+ 0x10 = 16
+ 0x80 = 128
 0x100 = 256
 ```
 

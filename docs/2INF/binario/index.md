@@ -113,8 +113,8 @@ A **101101** in binario corrisponde **45** in decimale.
 Altri esempi di conversioni da binario e decimale:
 
 ```math
-0b1011 = 2^3 + 2^1 + 2^0 = 8 + 2 + 1 = 11
-0b11001 = 2^4 + 2^3 + 2^0 = 16 + 8 + 1 = 25
+  0b1011 = 2^3 + 2^1 + 2^0 = 8 + 2 + 1 = 11
+ 0b11001 = 2^4 + 2^3 + 2^0 = 16 + 8 + 1 = 25
 0b101110 = 2^5 + 2^3 + 2^2 + 2^1 = 32 + 8 + 4 + 2 = 46
 ```
 
@@ -183,7 +183,63 @@ Leggendo i resti **dal basso verso l'alto** otteniamo **10010101001**,
 che è il numero binario cercato.
 
 ## Somma fra numeri binari
-_(in via di pubblicazione)_
 
-## Operazioni `AND`, `OR`, `NOT` bit per bit
+Impariamo a sommare 2 numeri binari e verificare poi, convertendoli in decimale,
+se il calcolo è stato fatto correttamente.
+
+La somma si fa in colonna come nel caso decimale, ricordiamoci però
+che si opera in base 2 quindi con le regole che seguono:
+
+```math
+    0 + 0 = 0
+    0 + 1 = 1
+    1 + 0 = 1
+    1 + 1 = 0 con riporto di 1
+1 + 1 + 1 = 1 con riporto di 1
+```
+
+Vediamo quindi come sommare 2 numeri: _X_ e _Y_.
+Li scriviamo in colonna, li allineiamo a destra,
+e aggiungimo in alto una riga con il riporto.
+
+Scegliamo ad esempio i numeri binari:
+
+- X = **1011101**
+- Y = **111001**
+
+Incolonniamo e calcoliamo:
+
+```math
+riporto   1 1 1 1     1
+      
+      X     1 0 1 1 1 0 1
+      Y       1 1 1 0 0 1
+      -------------------
+  X + Y   1 0 0 1 0 1 1 0
+```
+
+Sommiamo a partire da destra:
+
+```math
+1 + 1                      = 0 con riporto di 1
+0 + 0 + 1 che ne riportavo = 1
+1 + 0                      = 1
+1 + 1                      = 0 con riporto di 1
+1 + 1 + 1 che ne riportavo = 1 con riporto di 1
+0 + 1 + 1 che ne riportavo = 0 con riporto di 1
+1     + 1 che ne riportavo = 0 con riporto di 1
+        1 che ne riportavo = 1
+```
+
+Verifichiamo convertendo i numeri binari _X_, _Y_ e _X+Y_ nel sistema decimale:
+
+```math
+ 0b1011101 =       64      + 16 + 8 + 4     + 1 = 93
+  0b111001 =            32 + 16 + 8         + 1 = 57
+0b10010110 = 128           + 16     + 4 + 2     = 150
+```
+
+Effettivamente, 93 + 57 = **150**. Il conto torna.
+
+## Operazioni `AND`, `OR`, `NOT`, `XOR` bit per bit
 _(in via di pubblicazione)_
