@@ -129,15 +129,19 @@ Alcuni numeri speciali:
 
 ```math
   0x0 = 0
+  0x4 = 4
   0x8 = 8
+  0xC = 12
  0x10 = 16
+ 0x40 = 64
  0x80 = 128
+ 0xC0 = 192
 0x100 = 256
 ```
 
-Notate che in esadecimale **80** è la metà di **100** così come **8** è la metà di **10**.
-Sembra strano ma non lo è, se si considera che dopo l'8 vengono altre 8 cifre
-e non 2 prima di arrivare a 10.
+Notate che in esadecimale **80** (128) è la metà di **100** (256) così come
+**8** è la metà di **10** (16). Sembra strano ma non lo è, se si considera
+che dopo l'8 vengono altre 8 cifre e non 2 prima di arrivare a 10.
 
 ## Da decimale a esadecimale
 _(in via di pubblicazione)_
