@@ -207,9 +207,10 @@ Scegliamo ad esempio i numeri binari:
 - X = **1011101**
 - Y = **111001**
 
-Incolonniamo e calcoliamo:
+Incolonniamo (e diamo un nome per chiarezza a ogni colonna) e calcoliamo:
 
 ```math
+colonna   h g f e d c b a
 riporto   1 1 1 1     1
       
       X     1 0 1 1 1 0 1
@@ -218,17 +219,17 @@ riporto   1 1 1 1     1
   X + Y   1 0 0 1 0 1 1 0
 ```
 
-Sommiamo a partire da destra:
+Sommiamo **da destra verso sinistra**:
 
 ```math
-1 + 1                      = 0 con riporto di 1
-0 + 0 + 1 che ne riportavo = 1
-1 + 0                      = 1
-1 + 1                      = 0 con riporto di 1
-1 + 1 + 1 che ne riportavo = 1 con riporto di 1
-0 + 1 + 1 che ne riportavo = 0 con riporto di 1
-1     + 1 che ne riportavo = 0 con riporto di 1
-        1 che ne riportavo = 1
+colonna a:  1 + 1                      = 0 con riporto di 1
+colonna b:  0 + 0 + 1 che ne riportavo = 1
+colonna c:  1 + 0                      = 1
+colonna d:  1 + 1                      = 0 con riporto di 1
+colonna e:  1 + 1 + 1 che ne riportavo = 1 con riporto di 1
+colonna f:  0 + 1 + 1 che ne riportavo = 0 con riporto di 1
+colonna g:  1     + 1 che ne riportavo = 0 con riporto di 1
+colonna h:          1 che ne riportavo = 1
 ```
 
 Verifichiamo convertendo i numeri binari _X_, _Y_ e _X+Y_ nel sistema decimale:
