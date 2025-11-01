@@ -242,5 +242,5 @@ Verifichiamo convertendo i numeri binari _X_, _Y_ e _X+Y_ nel sistema decimale:
 
 Effettivamente, 93 + 57 = **150**. Il conto torna.
 
-## Operazioni `AND`, `OR`, `NOT`, `XOR` bit per bit
+## Operazioni `AND`, `OR`, `NOT` bit per bit
 _(in via di pubblicazione)_
