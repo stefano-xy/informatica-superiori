@@ -144,7 +144,98 @@ Notate che in esadecimale **80** (128) è la metà di **100** (256) così come
 che dopo l'8 vengono altre 8 cifre e non 2 prima di arrivare a 10.
 
 ## Da decimale a esadecimale
-_(in via di pubblicazione)_
+
+Come per il caso [binario](../binario/index.md#da-decimale-a-binario), la conversione
+da decimale e esadecimale si effettua calcolando il resto delle divisioni.
+Questa volta si usa la base 16 invece che 2, quindi le divisioni saranno per 16.
+Il resto è un numero che va da 0 a 15 ed è un po' più difficile calcolarlo
+a mente rispetto al binario, quindi si effettua un passaggio in più per calcolare il resto.
+
+{: .highlight }
+I resti delle divisioni letti dal basso verso l'alto compongono il numero esadecimale.
+I resti da 10 a 15 vanno indicati con le lettere da **A** a **F**.
+
+Esempio, convertiamo **2654** in esadecimale. Dall'esempio precedente sappiamo che il
+risultato dovrà essere **A5E** ma vediamo come calcolarlo.
+
+```math
+2654 / 16 = 165 con resto 14
+ 165 / 16 =  10 con resto 5
+  10 / 16 =   0 con resto 10
+```
+
+Ci fermiamo quando otteniamo il quoziente **0**, ricordandoci però di considerare
+il resto di quest'ultima divisione.
+
+{: .highlight }
+Leggendo i resti **dal basso verso l'alto** e convertendo i resti da 10 a 15
+in lettere otteniamo **A5E**, che è il numero esadecimale cercato.
+
+Come si calcola il resto? Facciamo alcuni passaggi in più:
+
+```math
+2654 / 16 = 165, rimoltiplichiamo 165 * 16 = 2640, calcoliamo 2654 - 2640 =  14 = 0xE.
+ 165 / 16 =  10, rimoltiplichiamo  10 * 16 =  160, calcoliamo  165 -  160 =   5 = 0x5.
+  10 / 16 =   0, rimoltiplichiamo   0 * 16 =    0, calcoliamo   10 -    0 =  10 = 0xA.
+```
+
+Per calcolare il resto moltiplichiamo il risultato della divisione per 16 e
+lo sottraiamo dal valore iniziale. Questo altro non è che la definizione stessa di _resto_.
+
+Possiamo rappresentare questa catena di divisioni in un modo più agevole,
+eliminando la dicitura _diviso 16_ e lasciando solo i resti,
+con una colonna in più per agevolare il calcolo:
+
+| Valore | Resto della divisione per 16 | Calcolo del resto                    |
+|-------:|:-----------------------------|:-------------------------------------|
+|   2654 | **E** (14)                   | 2654 - 165 * 16 = 2654 - 2640 = 14   |
+|    165 | **5**                        | 165 - 10 * 16 = 165 - 160 = 5        |
+|     10 | **A** (10)                   | 10 - 0 * 16 = 10 - 0 = 10            |
+|      0 |                              |                                      |
+
+{: .highlight }
+Se i conti diventano troppo complessi possiamo aiutarci con una calcolatrice.
+Per il calcolo conviene prima fare tutte le divisioni per 16, la prima colonna,
+e poi calcolare tutti i resti, la terza e poi la seconda colonna.
+
+Facciamo un altro esempio con il numero **2240** già visto prima.
+
+| Valore | Resto della divisione per 16 | Calcolo del resto                    |
+|-------:|:-----------------------------|:-------------------------------------|
+|   2240 | **0**                        | 2240 - 140 * 16 = 2240 - 2240 = 0    |
+|    140 | **C** (12)                   | 140 - 8 * 16 = 140 - 128 = 12        |
+|      8 | **8**                        | 8 - 0 * 16 = 8 - 0 = 8               |
+|      0 |                              |                                      |
+
+Leggendo i resti **dal basso verso l'alto** otteniamo **8C0**,
+che è il numero esadecimale cercato. Zero è un resto valido.
+
+Facciamo un altro esempio con il numero **39587** già visto prima.
+
+| Valore | Resto della divisione per 16 | Calcolo del resto                     |
+|-------:|:-----------------------------|:--------------------------------------|
+|  39587 | **3**                        | 39587 - 2474 * 16 = 39587 - 39584 = 3 |
+|   2474 | **A** (10)                   | 2474 - 154 * 16 = 2474 - 2464 = 10    |
+|    154 | **A** (10)                   | 154 - 9 * 16 = 154 - 144 = 10         |
+|      9 | **9**                        | 9 - 0 * 16 = 9 - 0 = 9                |
+|      0 |                              |                                       |
+
+Leggendo i resti **dal basso verso l'alto** otteniamo **9AA3**,
+che è il numero esadecimale cercato.
+
+Facciamo un altro esempio con l'ultimo numero **786554** già visto prima.
+
+| Valore | Resto della divisione per 16 | Calcolo del resto                          |
+|-------:|:-----------------------------|:-------------------------------------------|
+| 786554 | **A** (10)                   | 786554 - 49159 * 16 = 786554 - 786544 = 10 |
+|  49159 | **7**                        | 49159 - 3072 * 16 = 49159 - 49152 = 7      |
+|   3072 | **0**                        | 3072 - 192 * 16 = 3072 - 3072 = 0          |
+|    192 | **0**                        | 192 - 12 * 16 = 192 - 192 = 0              |
+|     12 | **C** (12)                   | 12 - 0 * 16 = 12 - 0 = 12                  |
+|      0 |                              |                                            |
+
+Leggendo i resti **dal basso verso l'alto** otteniamo **C007A**,
+che è il numero esadecimale cercato.
 
 ## Esadecimale sul web
 _(in via di pubblicazione)_

@@ -125,7 +125,7 @@ le cifre per varie potenze del 2, la conversione opposta da decimale
 a binario di effettua dividendo il numero da convertire più volte sempre per 2.
 
 {: .highlight }
-I resti delle divisioni compongono il numero binario.
+I resti delle divisioni letti dal basso verso l'alto compongono il numero binario.
 
 Esempio, convertiamo **25** in binario. Dall'esempio precedente sappiamo che il
 risultato dovrà essere **11001** ma vediamo come calcolarlo.
@@ -150,12 +150,12 @@ eliminando la dicitura _diviso 2_ e lasciando solo i resti:
 
 | Valore | Resto della divisione per 2 |
 |-------:|:----------------------------|
-|    25  |  1                          |
-|    12  |  0                          |
-|     6  |  0                          |
-|     3  |  1                          |
-|     1  |  1                          |
-|     0  |                             |
+|     25 | **1**                       |
+|     12 | **0**                       |
+|      6 | **0**                       |
+|      3 | **1**                       |
+|      1 | **1**                       |
+|      0 |                             |
 
 Il calcolo del resto si può fare a mente: se il valore da dividere è dispari,
 il resto sarà **1** mentre se il valore da dividere è pari
@@ -166,18 +166,18 @@ Facciamo un altro esempio con il numero **1193**.
 
 | Valore | Resto della divisione per 2 |
 |-------:|:----------------------------|
-|  1193  |  1                          |
-|   596  |  0                          |
-|   298  |  0                          |
-|   149  |  1                          |
-|    74  |  0                          |
-|    37  |  1                          |
-|    18  |  0                          |
-|     9  |  1                          |
-|     4  |  0                          |
-|     2  |  0                          |
-|     1  |  1                          |
-|     0  |                             |
+|   1193 | **1**                       |
+|    596 | **0**                       |
+|    298 | **0**                       |
+|    149 | **1**                       |
+|     74 | **0**                       |
+|     37 | **1**                       |
+|     18 | **0**                       |
+|      9 | **1**                       |
+|      4 | **0**                       |
+|      2 | **0**                       |
+|      1 | **1**                       |
+|      0 |                             |
 
 Leggendo i resti **dal basso verso l'alto** otteniamo **10010101001**,
 che è il numero binario cercato.
