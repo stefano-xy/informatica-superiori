@@ -148,6 +148,3 @@ _(in via di pubblicazione)_
 
 ## Esadecimale sul web
 _(in via di pubblicazione)_
-
-## Colori RGB in esadecimale
-_(in via di pubblicazione)_

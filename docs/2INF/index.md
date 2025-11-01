@@ -16,11 +16,12 @@ dell'indirizzo Informatico (2° anno), con il seguente programma:
   - Operazioni di somma fra numeri binari.
   - Operazioni di `AND`, `OR`, `NOT` bit per bit.
 - Sistema di numerazione [esadecimale](esadecimale/index.md).
-  - L'esadecimale e il suo uso sul web, colori RGB.
+  - L'esadecimale e il suo uso sul web.
   - Conversione da decimale a esadecimale e viceversa.
 - [Codifiche](codifiche/index.md).
   - Bit, Byte, KB, MB, GB e altre unità di misura.
   - Codifica di testo ASCII e Unicode.
+  - Codifica dei colori RGB.
   - Codifica di immagini, audio, video (_cenni_).
 - Algebra booleana, condizioni.
 - Algoritmi con diagrammi di flusso.

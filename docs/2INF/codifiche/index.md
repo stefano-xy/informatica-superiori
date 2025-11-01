@@ -140,6 +140,9 @@ Ci sono siti che convertono foto in ASCII art. Cercateli con Google.
 ## Codifica di testo Unicode
 _(in via di pubblicazione)_
 
+## Codifica dei colori RGB
+_(in via di pubblicazione)_
+
 ## Codifica di una immagine
 _(in via di pubblicazione)_
 
