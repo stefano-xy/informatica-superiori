@@ -141,7 +141,61 @@ Ci sono siti che convertono foto in ASCII art. Cercateli con Google.
 _(in via di pubblicazione)_
 
 ## Codifica dei colori RGB
-_(in via di pubblicazione)_
+
+Possiamo rappresentare i colori con 3 componenti fondamentali:
+
+- **R**ed
+- **G**reen
+- **B**lue
+
+Gli schermi elettronici sono composti da _pixel_, cioè [puntini luminosi](https://it.wikipedia.org/wiki/Pixel).
+Ogni _pixel_ è in realtà composto da 3 _subpixel_, cioè [sotto-pixel](https://it.wikipedia.org/wiki/Sub-pixel),
+uno rosso, uno verde e uno blù. L'occhio umano non riesce a distinguere questi _subpixel_
+se non con una lente di ingrandimento.
+
+![Subpixel](subpixel.png)
+
+L'occhio umano vede i 3 colori mescolati, e percepisce tutti i colori visibili
+in quanto ogni colore è il risultato di aver mescolato rosso, verde o blù in combinazioni diverse.
+
+![RGB](rgb.svg)
+
+Le componenti RGB sono separate e ognuna può avere un valore che va da _0_ a _255_,
+dove con _0_ si intende _spento_ e con _255_ si intende _massima intensità_.
+
+Naturalmente i numeri _0_ e _255_ non sono casuali. Corrispondono in esadecimale ai numeri **00** e **FF**.
+Ogni componente di un colore RGB può essere rappresentata con un _byte_.
+
+{: .highlight }
+Un _pixel_ di uno schermo a colori può essere rappresentato con 3 _byte_.
+
+I colori si rappresentano con 3 byte separati, es. **(10, 9C, EB)** oppure
+la sintassi abbreviata **#109CEB**, usata molto sul web in quanto
+è quella dei linguaggi [HTML](https://www.html.it/guide/guida-html/) e [CSS](https://www.html.it/guide/guida-css-di-base/).
+Il primo _byte_ è il rosso, il secondo il verde, il terzo il blù.
+
+Alcune combinazioni di colori:
+
+- Rosso + verde = Giallo **#FFFF00**
+- Rosso + blù = Magenta **#FF00FF**
+- Verde + blù = Ciano **#00FFFF**
+- Rosso + verde + blù = Bianco **#FFFFFF**
+
+Il nero si ottiene non mescolando alcun colore **#000000**.
+Tutte le gradazioni intermedie si ottengono mescolando i componenti RGB
+in quantità diverse, es. **#FF8000** è arancione
+mentre **#0080FF** è azzurro intenso.
+
+Il grigio si ottiene come via di mezzo fra bianco e nero, cioè con tutti
+i componenti RGB alla stessa intensità, e anche esso può avere tante gradazioni, es:
+
+- Nero **#000000**
+- Grigio scuro **#404040**
+- Grigio intermedio **#808080**
+- Grigio chiaro **#C0C0C0**
+- Bianco **#FFFFFF**
+
+Provare di persona usando un sito come [RGB Color Picker](https://rgbcolorpicker.com/).
 
 ## Codifica di una immagine
 _(in via di pubblicazione)_
