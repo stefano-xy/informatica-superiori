@@ -122,7 +122,7 @@ Codifichiamo il nostro nome in ASCII! Ad esempio _Mario Rossi_ è scritto così:
 ```
 
 Notate il _byte_ **20** usato per codificare lo spazio fra _Mario_ e _Rossi_.
-Notate anche il _byte_ **73** ripetuti 2 volte di file: solo le doppie **s** di _Rossi_.
+Notate anche il _byte_ **73** ripetuto 2 volte di file: solo le doppie **s** di _Rossi_.
 
 ### ASCII Art!
 
@@ -138,7 +138,123 @@ L'immagine viene da [qui](https://asciiart.website/art/787).
 Ci sono siti che convertono foto in ASCII art. Cercateli con Google.
 
 ## Codifica di testo Unicode
-_(in via di pubblicazione)_
+
+L'ASCII permette di rappresentare in _byte_ del testo formato da caratteri _semplici_:
+lettere maiuscole e minuscole, punteggiatura, parentesi e numeri. Questo è però
+troppo limitativo, pensate ad esempio alle lettere italiane accentate **ÀÈÌÒÙ**
+o con accento **É** (perch**é**, poich**é**) ma anche **ÄÖÜ** in tedesco,
+caratteri come **Ñ** in spagnolo, le legature francesi
+[**Œ**](https://it.wikipedia.org/wiki/%C5%92)
+ed [**Æ**](https://it.wikipedia.org/wiki/%C3%86) o altri alfabeti come
+il [greco](https://it.wikipedia.org/wiki/Alfabeto_greco),
+il [cirillico](https://it.wikipedia.org/wiki/Alfabeto_cirillico) usato per russo, ucraino, serbo, bulgaro, ...
+o anche l'[arabo](https://it.wikipedia.org/wiki/Alfabeto_arabo) (أبجدية عربية),
+gli alfabeti giapponesi [Katakana](https://it.wikipedia.org/wiki/Katakana) (片仮名)
+e [Hiragana](https://it.wikipedia.org/wiki/Hiragana) (平仮名),
+gli ideogrammi giapponesi [Kanji](https://it.wikipedia.org/wiki/Kanji) (漢字)
+e [cinesi](https://it.wikipedia.org/wiki/Lingua_cinese)
+semplificati (汉语) e tradizionali (漢語) e molti altri caratteri e alfabeti,
+fino a geroglifici, simboli runici e migliaia di altri casi speciali.
+
+Anche le emoji 😅😂😍👌 sono caratteri!
+
+Il sistema per rappresentare tutti questi caratteri si chiama [Unicode](https://home.unicode.org/)
+ed è usato ormai ovunque in informatica e su Internet.
+
+Unicode è una enorme tabella separata in alfabeti che contiene più di 150.000 caratteri
+e cresce di anno in anno. Ogni anno si aggiungono nuovi caratteri e emoji.
+
+### Alfabeti e caratteri
+
+Ogni carattere (_code point_ secondo la terminologia Unicode) è rappresentato da un codice
+esadecimale da 4-5 cifre spesso indicato con il prefisso **U+**. Ecco alcuni caratteri di esempio:
+
+- **Ä** (U+00C4), **ü** (U+00FC), **Ď** (U+010E)
+- **Δ** (U+0394), **Ψ** (U+03A8), **β** (U+03B2)
+- **И** (U+0418), **ж** (U+0436), **Я** (U+042F)
+- 💔 (U+1F494), 🥰 (U+1F970), 🦔 (U+1F994), 🔥 (U+1F525)
+
+L'intera tabella è visibile su [questo sito](https://symbl.cc/it/unicode-table/).
+Le emoji invece si possono esplorare su [Emojipedia](https://emojipedia.org/it)!
+
+Analizziamo la stringa **💔 perché? 🥹**
+
+1. Andiamo su [unicode.run](https://unicode.run/)
+2. Scriviamo il testo, possiamo fare copia-incolla.
+3. Verifichiamo che _Show Below_ sia impostato su _Hex Code Point_.
+
+Vediamo che la stringa contiene i seguenti **11** caratteri:
+
+1.  U+1F494 BROKEN HEART (💔)
+2.  U+0020 SPACE
+3.  U+0070 LATIN SMALL LETTER P
+4.  U+0065 LATIN SMALL LETTER E
+5.  U+0072 LATIN SMALL LETTER R
+6.  U+0063 LATIN SMALL LETTER C
+7.  U+0068 LATIN SMALL LETTER H
+8.  U+00E9 LATIN SMALL LETTER E WITH ACUTE (**é**)
+9.  U+003F QUESTION MARK
+10. U+0020 SPACE
+11. U+1F979 FACE HOLDING BACK TEARS (🥹)
+
+_Speriamo non sia successo nulla di grave._
+
+### Codifica UTF-8
+
+Come si codifica un testo che contiene caratteri Unicode in _byte_?
+Esistono più sistemi ma quello di gran lunga più utilizzato si chiama UTF-8.
+
+Ogni caratte Unicode, sia semplice che più complesso come una emoji,
+si converte in _byte_ con una procedura complessa che fa si che
+il carattere venga scritto con _uno o più bytes_.
+
+{: .highlight }
+I caratteri che hanno un corrispondente ASCII utilizzano lo stesso
+_byte_ usato nella tabella ASCII. I caratteri accentati vengono scritti
+con 2 _byte_ e spesso alfabeti più complessi e emoji vengono scritti
+con 2, 3 o anche 4 _byte_.
+
+Per convertire da testo a _sequenza di byte UTF-8_ utilizziamo di nuovo
+il sito [unicode.run](https://unicode.run/) in quanto le regole di conversione
+sono troppo complesse per essere applicate a mano.
+
+1. Andiamo su [unicode.run](https://unicode.run/).
+2. Scriviamo il testo **💔 perché? 🥹** facendo copia-incolla.
+3. Impostiamo _Show Below_ a _UTF-8_.
+
+Vediamo come i caratteri vengono codificati in _byte_:
+
+1.  **F0 9F 92 94** BROKEN HEART (💔)
+2.  **20** SPACE
+3.  **70** LATIN SMALL LETTER P
+4.  **65** LATIN SMALL LETTER E
+5.  **72** LATIN SMALL LETTER R
+6.  **63** LATIN SMALL LETTER C
+7.  **68** LATIN SMALL LETTER H
+8.  **C3 A9** LATIN SMALL LETTER E WITH ACUTE (é)
+9.  **3F** QUESTION MARK
+10. **20** SPACE
+11. **F0 9F A5 B9** FACE HOLDING BACK TEARS (🥹)
+
+Notiamo che:
+
+- I caratteri semplici come lo _spazio_, il _punto interrogativo_ e le lettere **p e r c h**
+  sono codificati con un solo _byte_ che corrisponde a quello della tabella ASCII.
+- Il carattere **é** è codificato con 2 _byte_.
+- Le emoji 💔🥹 sono codificate ognuna con 4 _byte_.
+
+Quindi la stringa **💔 perché? 🥹** formata da **11** caratteri
+è salvata su file o trasmessa su internet con la sequenza di **18** _byte_:
+
+```text
+F0 9F 92 94 20 70 65 72 63 68 C3 A9 3F 20 F0 9F A5 B9
+```
+
+{: .highlight }
+Attenzione: i byte UTF-8 non corrispondono ai codici dei caratteri Unicode,
+quelli che iniziano con **U+**! In un certo senso _gli assomigliano_ ma non sono
+gli stessi. E se si volesse capire come funziona veramente l'algoritmo di conversione?
+È spiegato [qui](https://it.wikipedia.org/wiki/UTF-8#Descrizione_tecnica).
 
 ## Codifica dei colori RGB
 
