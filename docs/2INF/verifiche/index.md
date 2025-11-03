@@ -50,7 +50,8 @@ Mostrare tutti i passaggi intermedi.
 
    Es. 18/4/2006 -> 0x18 = 18 esadecimale
 
-   Partendo da questo numero, scrivere i 20 numeri che seguono, in esadecimale.
+   Partendo da questo numero, scrivere i 20 numeri che seguono, in esadecimale:
+   `18 19 1A 1B ...`
 
 3. Convertire da esadecimale a decimale 2 numeri a scelta:
 
@@ -65,7 +66,7 @@ Mostrare tutti i passaggi intermedi.
    Effettuare la prova, convertendo i numeri esadecimali trovati
    di nuovo in decimale, verificando che i conti tornino.
 
-5. Di che colori RGB stiamo parlando?
+5. Di che colori RGB stiamo parlando? Come si riesce a capire che colori sono?
 
 - #E92A0F
 - #E98A0F
