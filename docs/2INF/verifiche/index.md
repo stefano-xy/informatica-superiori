@@ -35,3 +35,45 @@ Mostrare tutti i passaggi intermedi.
    Calcolare la somma in binario.
    Convertire tutti i numeri in decimale.
    Verificare che la somma in decimale corrisponda a quella in binario.
+
+## Verifica 1
+
+Mostrare tutti i passaggi intermedi.
+
+1. Scegliere 2 numeri binari a piacere da 10 cifre.
+   Calcolare la somma in binario.
+   Convertire tutti i numeri in decimale.
+   Verificare che la somma in decimale corrisponda a quella in binario.
+
+2. Contare in esadecimale. Prendere come numero di partenza
+   il giorno del vostro compleanno e interpretarlo come numero esadecimale.
+
+   Es. 18/4/2006 -> 0x18 = 18 esadecimale
+
+   Partendo da questo numero, scrivere i 20 numeri che seguono, in esadecimale.
+
+3. Convertire da esadecimale a decimale 2 numeri a scelta:
+
+   - 2 cifre, di cui almeno 1 _lettera_
+   - 3 cifre, di cui almeno 2 _lettere_
+
+4. Convertire da decimale a esadecimale 2 numeri a scelta:
+
+   - Primo numero da 500 a 1000
+   - Secondo numero da 1000 a 5000
+
+   Effettuare la prova, convertendo i numeri esadecimali trovati
+   di nuovo in decimale, verificando che i conti tornino.
+
+5. Di che colori RGB stiamo parlando?
+
+- #E92A0F
+- #E98A0F
+- #02A0FF
+
+6. Codificare in _byte_ la stringa `È così facile, no?`.
+   È possibile scriverla in ASCII? Motiovare la risposta.
+   È possibile codificarla in Unicode? Usare [unicode.run](https://unicode.run/).
+   Spiegare il significato di ogni _byte_.
+
+   La risposta alla domanda è: `50 69 C3 B9 20 6F 20 6D 65 6E 6F`.
