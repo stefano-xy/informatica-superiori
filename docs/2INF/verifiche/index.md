@@ -68,13 +68,14 @@ Mostrare tutti i passaggi intermedi.
 
 5. Di che colori RGB stiamo parlando? Come si riesce a capire che colori sono?
 
-- #E92A0F
-- #E98A0F
-- #02A0FF
+   - #E92A0F
+   - #E98A0F
+   - #02A0FF
 
 6. Codificare in _byte_ la stringa `È così facile, no?`.
-   È possibile scriverla in ASCII? Motiovare la risposta.
+   È possibile scriverla in ASCII? Motivare la risposta.
    È possibile codificarla in Unicode? Usare [unicode.run](https://unicode.run/).
    Spiegare il significato di ogni _byte_.
 
    La risposta alla domanda è: `50 69 C3 B9 20 6F 20 6D 65 6E 6F`.
+   Quale è il testo corrispondente?
