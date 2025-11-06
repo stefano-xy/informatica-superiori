@@ -68,9 +68,9 @@ Mostrare tutti i passaggi intermedi.
 
 5. Di che [colori RGB](../codifiche/index.md#codifica-dei-colori-rgb) stiamo parlando? Come si riesce a capire che colori sono?
 
-   - #E92A0F
-   - #E98A0F
-   - #02A0FF
+   - #2A0FE9
+   - #8A0F79
+   - #FFA002
 
 6. Codificare in _byte_ la stringa `È così facile, no?`.
    È possibile [codificarla in ASCII](../codifiche/index.md#codifica-di-testo-ascii)? Sì o no? Motivare la risposta.
