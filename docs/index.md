@@ -18,10 +18,10 @@ Siete i benvenuti a [contribuire](contrib.md) modificando e ampliando questo mat
 
 Scienze e Tecnologie Applicate (STA) per l'indirizzo **[2INF](2INF/index.md)** (Informatico, 2° anno):
 
-- Sistemi di numerazione [binario](2INF/binario/index.md) e [esadecimale](2INF/esadecimale/index.md). _(in via di pubblicazione)_
-- [Codifiche](2INF/codifiche/index.md) ASCII, Unicode, immagini, audio e video. _(in via di pubblicazione)_
+- Sistemi di numerazione [binario](2INF/binario/index.md) e [esadecimale](2INF/esadecimale/index.md).
+- [Codifiche](2INF/codifiche/index.md) ASCII, Unicode, immagini, audio e video.
 - Algebra booleana, condizioni. _(in via di pubblicazione)_
-- Algoritmi con diagrammi di flusso. _(in via di pubblicazione)_
+- Algoritmi e programmi con [Flowrun](2INF/diagrammi/index.md).
 - Introduzione alla programmazione con _python_ attraverso i notebook di _Google Colab_. _(in via di pubblicazione)_
 - Pagine web con _HTML_, _CSS_, _JavaScript_. _(in via di pubblicazione)_
 - Esempi e esercitazioni relative. _(in via di pubblicazione)_

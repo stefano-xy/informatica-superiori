@@ -24,7 +24,7 @@ dell'indirizzo Informatico (2° anno), con il seguente programma:
   - Codifica dei colori RGB.
   - Codifica di immagini, audio, video (_cenni_).
 - Algebra booleana, condizioni.
-- Algoritmi con diagrammi di flusso.
+- Algoritmi con [diagrammi di flusso](diagrammi/index.md).
   - Algoritmi, tipi di dato, costanti e variabili.
   - Input e output.
   - Scrivere algoritmi tramite diagrammi di flusso.
