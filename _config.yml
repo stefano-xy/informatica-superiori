@@ -30,6 +30,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-gist
   - jekyll-relative-links
+  - jekyll-target-blank
   - jemoji
 
 # Build settings
