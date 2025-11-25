@@ -7,7 +7,7 @@ nav_order: 4
 
 # Diagrammi di flusso con FlowRun
 
-Breve guida per capire e utilizzare Flowrun
+Breve guida per capire e utilizzare FlowRun
 e scrivere semplici algoritmi e programmi tramite diagrammi di flusso.
 
 1. TOC
@@ -15,7 +15,7 @@ e scrivere semplici algoritmi e programmi tramite diagrammi di flusso.
 
 ## Utilizzo
 
-Aprire Flowrun all'indirizzo [flowrun.io](https://flowrun.io).
+Aprire FlowRun all'indirizzo [flowrun.io](https://flowrun.io).
 Selezionare _Start coding_. Apparirà questa schermata:
 
 ![](usage1.png)
@@ -30,7 +30,7 @@ fra _Begin_ e _End_, e selezionare quale blocco inserire fra quelli proposti dal
 
 ## Come e quali blocchi utilizzare
 
-Flowrun differisce dagli schemi spesso fatti alla lavagna in quanto necessita
+FlowRun differisce dagli schemi spesso fatti alla lavagna in quanto necessita
 di una dichiarazione esplicita delle variabili usate (blocco _Declare_)
 e dal fatto che non permette alle frecce di essere disegnate
 e connessa a piacere con i blocchi.
@@ -76,7 +76,7 @@ Se si tenta di utilizzare la variabile prima che questa sia dichiarata,
 si riceve un messaggio d'errore.
 
 {: .highlight }
-In Flowrun, quando si dichiara una variabile, questa inizialmente
+In FlowRun, quando si dichiara una variabile, questa inizialmente
 non avrà alcun valore, si dice cioè che _non è inizializzata_.
 Usare una variabile non inizializzata genera un errore.
 
@@ -105,7 +105,7 @@ Nelle espressioni è possibile utilizzare le operazioni:
 
 È possibile anche usare le parentesi tonde `(` e `)` come nelle espressioni matematiche.
 Se sono necessari più livelli di parentesi, usate sempre le tonde, non le quadre
-o le graffe, es. `((a + b) * c - d) / e`, Flowrun e i linguaggi di programmazione
+o le graffe, es. `((a + b) * c - d) / e`, FlowRun e i linguaggi di programmazione
 riescono a comprendere di quello che si vuole indicare. Parentesi quadre e graffe
 hanno altri usi.
 
@@ -268,7 +268,7 @@ il valore di _n_ è noto e il numero di ripetizioni è quindi fissato a _n_.
 
 ## Funzioni
 
-Flowrun riconosce alcune funzioni che possono essere usate nelle espressioni di
+FlowRun riconosce alcune funzioni che possono essere usate nelle espressioni di
 inizializzazione di una variabile, di assegnazione, di _Output_ e nelle espressioni condizionali.
 
 Alcuni esempi:
@@ -285,4 +285,4 @@ in un solo blocco _Declare_ usando la funzione come valore iniziale della variab
 ![](read_input.png)
 
 L'elenco completo di tutte le funzioni supportate è disponibile nella
-[documentazione](https://flowrun.io/docs/reference/predefined-functions) di Flowrun.
+[documentazione](https://flowrun.io/docs/reference/predefined-functions) di FlowRun.
