@@ -25,6 +25,7 @@ title: Informatica - Materiale didattico
 description: >-
   Materiale didattico di informatica sotto forma di dispense, brevi manuali, esempi
   e una collezione di esercizi per classi di scuola secondaria superiore.
+url: https://informatica.pettini.eu
 
 plugins:
   - jekyll-default-layout
