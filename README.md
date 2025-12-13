@@ -47,10 +47,8 @@ Per generare e testate il sito in locale è necessario avere un ambiente di svil
 Su _Linux_, sia _Ubuntu_ che _Debian_:
 
 ```
-sudo apt install bundler ruby-dev zlib1g-dev
+sudo apt install bundler
 ```
-
-Gli ultimi due pacchetti sono necessari per compilare alcune dipendenze.
 
 Su _macOS_:
 
