@@ -1,5 +1,5 @@
 ---
-title: Esercitazioni e soluzioni
+title: Esercitazioni + soluzioni
 parent: 2TUR
 layout: page
 nav_order: 4
