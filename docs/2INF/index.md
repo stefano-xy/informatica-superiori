@@ -37,7 +37,7 @@ dell'indirizzo Informatico (2° anno), con il seguente programma:
   - Sequenze (`list`) e associazioni (`dict`).
   - Utilizzo di notebooks in _Google Colab_.
 - Diagrammi di esempio con codice _python_ corrispondente.
-- Esercitazioni con diagrammi a blocchi e in _python_.
+- [Esercitazioni](esercitazioni/index.md) con diagrammi a blocchi e in _python_.
 - Pagine Web.
   - Linguaggio _HTML_.
   - Fogli di stile _CSS_.

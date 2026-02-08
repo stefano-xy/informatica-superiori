@@ -44,6 +44,8 @@ Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
 - Scrivere se può guidare un'auto (da 18 anni)
 - Scrivere se può andare a piedi (indipendentemente dall'età)
 
+[Soluzione](parte1/es3_patenti.flowrun){: .btn }
+
 ### Ripeti fino a zero
 
 Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
