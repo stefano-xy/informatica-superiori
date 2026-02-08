@@ -24,8 +24,8 @@ Scienze e Tecnologie Applicate (STA) per l'indirizzo **[2INF](2INF/index.md)** (
 - Algoritmi e programmi con [FlowRun](2INF/diagrammi/index.md).
 - Introduzione alla programmazione con _python_ attraverso i notebook di _Google Colab_. _(in via di pubblicazione)_
 - Pagine web con _HTML_, _CSS_, _JavaScript_. _(in via di pubblicazione)_
-- Esempi e esercitazioni relative. _(in via di pubblicazione)_
-- Proposte per le verifiche. _(in via di pubblicazione)_
+- Esempi e [esercitazioni](2INF/esercitazioni/index.md) relative. _(in via di pubblicazione)_
+- Proposte per le [verifiche](2INF/verifiche/index.md). _(in via di pubblicazione)_
 
 Informatica per l'indirizzo **[2TUR](2TUR/index.md)** (Turistico, 2° anno):
 
