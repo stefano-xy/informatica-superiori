@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -16,7 +17,7 @@ gem "jekyll-target-blank", "~> 2.0.2"
 gem "jekyll-sitemap", "~> 1.4.0"
 gem "kramdown", "~> 2.5.1"
 gem "kramdown-parser-gfm", "~> 1.1.0"
-gem "just-the-docs", "~> 0.10.1"
+gem "just-the-docs", "~> 0.10.2"
 gem "jemoji", "~> 0.13.0"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
