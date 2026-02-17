@@ -10,7 +10,7 @@ in alcune classi di scuola secondaria superiore dei seguenti indirizzi:
 Alcuni argomenti trattati:
 
 - Sistema di numerazione binario e esadecimale, conversioni.
-- Algoritmi tramite Flowgorithm e FlowRun.
+- Algoritmi tramite _Flowgorithm_ e _FlowRun_.
 - Conversione dei suddetti algoritmi in _Python_.
 - Pagine web con _HTML_, _CSS_, _JavaScript_.
 - Introduzione alla programmazione tramite _C++_.

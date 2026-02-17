@@ -33,7 +33,7 @@ se un numero è primo ma noi useremo questo algoritmo semplice. I numeri
 primi sono fondamentali in matematica e informatica, in particolare per la crittografia:
 c'è tanto tanto lavoro universitario e di centri di ricerca ma a noi _va bene così_.
 
-Separiamo allora l'esercizio in 2 parti.
+Separiamo allora l'esercizio in più parti.
 
 ### Controllare se un numero è primo
 
@@ -126,7 +126,72 @@ Vedrete che ci impiegherà _molto_ di più.
 
 ## Tavola pitagorica
 
-_(in via di pubblicazione)_
+Vogliamo generare una tavola pitagorica 10x10, dove sono rappresentate
+tutte le tabelline da 1 a 10, cioè tutte le possibili moltiplicazioni
+fra i numeri da 1 a 10.
+
+![](tavola_pitagorica.jpg)
+
+Non vogliamo una tabella con tutti i bordi e i colori, ma semplicemente
+i numeri a formare un quadrato, possibilmente incolonnati bene.
+Non vogliamo neanche le righe e le colonne con lo zero.
+
+Per ogni numero `x` e `y` compreso fra 1 e 10, vogliamo stampare il loro prodotto.
+
+La frase precedente può essere quasi trascritta in _Python_ direttamente:
+
+```python
+for x in range(1, 11): # fino a 10, cioè 11 escluso
+  for y in range(1, 11):
+    print(x * y)
+```
+
+Questo stampa un elenco di 100 numeri. Miglioriamo l'esercizio andando a capo
+correttamente, solo alla fine cioè di ogni riga:
+
+```python
+for x in range(1, 11):    # fino a 10, cioè 11 escluso
+  for y in range(1, 11):
+    print(x * y, end=" ") # non va a capo ma lascia uno spazio
+  print()                 # va a capo
+```
+
+Il parametro `end=" "` fa si che invece di terminare la stampa del numero
+andando a capo, come normalmente avviene, si aggiunge uno spazio. Così facendo
+i numeri non vengono più stampati in un'unico elenco, ma in un'unica riga.
+Aggiungendo poi il secondo `print()` a fine di ogni riga, cioè alla fine
+di ogni ciclo `for` esterno, questo va a capo.
+
+Si forma una tabella 10x10 di numeri, sebbene non incolonnata benissimo
+in quanto i numeri minori di 10 occupano un solo carattere invece che 2
+rendendo la tabella _ammaccata_.
+
+Proviamo a risolverlo così:
+
+```python
+for x in range(1, 11):    # fino a 10, cioè 11 escluso
+  for y in range(1, 11):
+    n = x * y
+    if n < 10:
+      print("", end=" ")  # stampa uno spazio e non va a capo
+    print(n, end=" ")     # non va a capo ma lascia uno spazio
+  print()                 # va a capo
+```
+
+Che produce questo risultato:
+
+```
+ 1  2  3  4  5  6  7  8  9 10 
+ 2  4  6  8 10 12 14 16 18 20 
+ 3  6  9 12 15 18 21 24 27 30 
+ 4  8 12 16 20 24 28 32 36 40 
+ 5 10 15 20 25 30 35 40 45 50 
+ 6 12 18 24 30 36 42 48 54 60 
+ 7 14 21 28 35 42 49 56 63 70 
+ 8 16 24 32 40 48 56 64 72 80 
+ 9 18 27 36 45 54 63 72 81 90 
+10 20 30 40 50 60 70 80 90 100 
+```
 
 ## Roulette
 
@@ -171,7 +236,7 @@ Bisogna importare la funzione `randint` per poterla usare tramite `from random i
 
 Prima possibile soluzione:
 
-```Python
+```python
 # Per poter usare la funzione randint dobbiamo "prenderla" (importarla) dal modulo random
 from random import randint
 
