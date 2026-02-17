@@ -7,7 +7,7 @@ nav_order: 9
 
 # Esercitazioni con soluzioni allegate
 
-Alcune esercitazioni su _Flowrun_ e _Python_ con soluzioni allegate (da scaricare).
+Alcune esercitazioni su _FlowRun_ e _Python_ con soluzioni allegate (da scaricare).
 
 1. TOC
 {: toc }
@@ -16,7 +16,7 @@ Alcune esercitazioni su _Flowrun_ e _Python_ con soluzioni allegate (da scaricar
 
 ### La persona più grande
 
-Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo che chieda agli utenti 5 nomi e la loro età.
+Scrivere con [FlowRun](https://www.flowrun.io) un algoritmo che chieda agli utenti 5 nomi e la loro età.
 Es: _Come ti chiami?_, _Quanti anni hai?_ ... ripetuto 5 volte.
 
 Alla fine, stampare il nome della persona più grande e quanti anni questa ha.
@@ -29,14 +29,14 @@ Bonus: nella seconda domanda, ripetere il nome dell'utente. Es:
 
 ### Contare fino a N
 
-Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo che chieda all'utente un numero
+Scrivere con [FlowRun](https://www.flowrun.io) un algoritmo che chieda all'utente un numero
 e stampi poi tutti i numeri da 1 a quel numero inserito.
 
 [Soluzione](parte1/es2_count_n.flowrun){: .btn }
 
 ### Patenti di guida
 
-Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
+Scrivere con [FlowRun](https://www.flowrun.io) un algoritmo con questi passaggi:
 
 - Chiedere l'età dell'utente
 - Scrivere se può guidare il motorino (da 14 anni)
@@ -48,7 +48,7 @@ Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
 
 ### Ripeti fino a zero
 
-Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
+Scrivere con [FlowRun](https://www.flowrun.io) un algoritmo con questi passaggi:
 
 - Salutare con il messaggio _Buongiorno, inserisci un numero_.
 - Chiedere all'utente un numero.
@@ -63,7 +63,7 @@ Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
 
 Continuazione dell'esercizio precedente.
 
-Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
+Scrivere con [FlowRun](https://www.flowrun.io) un algoritmo con questi passaggi:
 
 - Salutare con il messaggio _Buongiorno, inserisci un numero_.
 - Chiedere all'utente un numero.
@@ -86,7 +86,7 @@ e la somma dei numeri inseriti. A fine ripetizione stampare tutti questi dati.
 
 ### Numeri crescenti o decrescenti
 
-Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo con questi passaggi:
+Scrivere con [FlowRun](https://www.flowrun.io) un algoritmo con questi passaggi:
 
 Chiedere all’utente 3 numeri.
 - Se i numeri vengono dati in ordine crescente, cioè se ogni numero è maggiore del precedente, scrivere _Numeri in ordine crescente_.
@@ -100,7 +100,7 @@ Altrimenti scrivere _Numeri in nessun ordine particolare_.
 
 ### Somma dei primi N numeri
 
-Scrivere con [Flowrun](https://www.flowrun.io) un algoritmo che chieda all'utente un numero,
+Scrivere con [FlowRun](https://www.flowrun.io) un algoritmo che chieda all'utente un numero,
 calcoli la somma di tutti i numeri da 1 a quel numero inserito e poi stampi il risultato.
 
 [Soluzione](parte2/es1_sum_n.flowrun){: .btn }
