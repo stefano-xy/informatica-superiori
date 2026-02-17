@@ -30,14 +30,14 @@ dell'indirizzo Informatico (2° anno), con il seguente programma:
   - Scrivere algoritmi tramite diagrammi di flusso.
   - Leggere e scrivere variabili.
   - Blocchi sequenza, selezione, iterazione.
-- Linguaggio di programmazione _python_.
-  - Istruzioni _python_ corrispondenti ai blocchi dei diagrammi di flusso.
-  - Indentazione in _python_.
+- Linguaggio di programmazione _Python_.
+  - Istruzioni _Python_ corrispondenti ai blocchi dei diagrammi di flusso.
+  - Indentazione in _Python_.
   - Definizione di funzioni.
   - Sequenze (`list`) e associazioni (`dict`).
   - Utilizzo di notebooks in _Google Colab_.
-- Diagrammi di esempio con codice _python_ corrispondente.
-- [Esercitazioni](esercitazioni/index.md) con diagrammi a blocchi e in _python_.
+- Diagrammi di esempio con codice _Python_ corrispondente.
+- [Esercitazioni](esercitazioni/index.md) con diagrammi a blocchi e in _Python_.
 - Pagine Web.
   - Linguaggio _HTML_.
   - Fogli di stile _CSS_.

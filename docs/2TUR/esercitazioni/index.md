@@ -7,7 +7,7 @@ nav_order: 4
 
 # Esercitazioni con soluzioni allegate
 
-Alcune esercitazioni su _Flowgorithm_ e _python_ con soluzioni allegate (da scaricare).
+Alcune esercitazioni su _Flowgorithm_ e _Python_ con soluzioni allegate (da scaricare).
 
 1. TOC
 {: toc }
@@ -65,17 +65,17 @@ Risolvere su _Flowgorithm_ i seguenti problemi e inviare i file come soluzioni.
 
    [Soluzione](ripetizioni2/es3_conta_giovanni.fprg){: .btn }
 
-## Ripetizioni in _python_
+## Ripetizioni in _Python_
 
-Convertire in codice _python_ le soluzioni ai 3 esercizi riportati nella [parte 2](#ripetizioni-parte-2):
+Convertire in codice _Python_ le soluzioni ai 3 esercizi riportati nella [parte 2](#ripetizioni-parte-2):
 
 - Creare un nuovo notebook su [_Google Colab_](https://colab.research.google.com)
   e nominarlo _esercitazione.ipynb_.
-- Creare 3 celle, una per ogni esercizio, che implementino con codice _python_
+- Creare 3 celle, una per ogni esercizio, che implementino con codice _Python_
   i diagrammi a blocchi allegati come soluzione.
 - Eseguire le celle una a una premendo il tasto _Play_ e verificare che tutto funzioni a dovere.
 - Allegare il file _Colab_ come soluzione a questa esercitazione e consegnare.
 
   [Soluzione](ripetizioni2/esercitazione.ipynb){: .btn }
 
-Come usare _Colab_ e _python_? Ricordarsi le spiegazione e le esercitazioni dei giorni passati e leggere il breve manuale [_python e Colab_](../codice/index.md) scritto come materiale didattico.
+Come usare _Colab_ e _Python_? Ricordarsi le spiegazione e le esercitazioni dei giorni passati e leggere il breve manuale [_Python e Colab_](../codice/index.md) scritto come materiale didattico.

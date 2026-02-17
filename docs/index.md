@@ -22,7 +22,7 @@ Scienze e Tecnologie Applicate (STA) per l'indirizzo **[2INF](2INF/index.md)** (
 - [Codifiche](2INF/codifiche/index.md) ASCII, Unicode, immagini, audio e video.
 - Algebra booleana, condizioni. _(in via di pubblicazione)_
 - Algoritmi e programmi con [FlowRun](2INF/diagrammi/index.md).
-- Introduzione alla programmazione con _python_ attraverso i notebook di _Google Colab_. _(in via di pubblicazione)_
+- Introduzione alla programmazione con _Python_ attraverso i notebook di _Google Colab_. _(in via di pubblicazione)_
 - Pagine web con _HTML_, _CSS_, _JavaScript_. _(in via di pubblicazione)_
 - Esempi e [esercitazioni](2INF/esercitazioni/index.md) relative. _(in via di pubblicazione)_
 - Proposte per le [verifiche](2INF/verifiche/index.md). _(in via di pubblicazione)_
@@ -30,7 +30,7 @@ Scienze e Tecnologie Applicate (STA) per l'indirizzo **[2INF](2INF/index.md)** (
 Informatica per l'indirizzo **[2TUR](2TUR/index.md)** (Turistico, 2° anno):
 
 - Algoritmi e programmi tramite _[Flowgorithm](2TUR/diagrammi/index.md)_.
-- Introduzione alla programmazione con _[python](2TUR/codice/index.md)_
+- Introduzione alla programmazione con _[Python](2TUR/codice/index.md)_
   attraverso i notebook di _Google Colab_.
 - [Conversione](2TUR/codice/index.md#scrivere-codice-python-partendo-da-flowgorithm)
   dei programmi _Flowgorithm_ in _python_.

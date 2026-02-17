@@ -68,7 +68,7 @@ Le stringhe, cioè il testo, devono sempre essere incluse fra virgolette `"…"`
 
 Ignoriamo per ora i tipi che contengono le parentesi quadre `[]`:
 questi sono array e matrici che non ha molto senso usare qui nei diagrammi
-ma dopo nel codice _python_, tramite tipi dedicati come `list`.
+ma dopo nel codice _Python_, tramite tipi dedicati come `list`.
 
 Quando il programma viene eseguito e si raggiunge un blocco _Declare_,
 la variabile dichiarata inizia a esistere nello stato del programma.
@@ -237,7 +237,7 @@ Nel caso di _While_ è possibile che il contenuto non venga mai eseguito.
 
 {: .highlight }
 Il loop _Do While_ in pratica si usa poco e non tutti i linguaggi hanno questa
-funzionalità. Ad esempio _python_ non lo supporta ma, se necessario, si può
+funzionalità. Ad esempio _Python_ non lo supporta ma, se necessario, si può
 scrivere con le istruzioni `while`, `if` e `break`. Consiglio di non usarlo mai.
 
 ### For (conta da … a … facendo …)

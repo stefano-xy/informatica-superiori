@@ -1,41 +1,41 @@
 ---
-title: python e Colab
+title: Python e Colab
 parent: 2TUR
 layout: page
 nav_order: 2
 ---
 
-# Programmare in python con Colab
+# Programmare in Python con Colab
 
-Viene ora introdotto _python_ come linguaggio di programmazione,
-Google Colab come ambiente dove poter programmare in _python_,
-e semplici regole per convertire programmi _Flowgorithm_ in _python_.
+Viene ora introdotto _Python_ come linguaggio di programmazione,
+Google Colab come ambiente dove poter programmare in _Python_,
+e semplici regole per convertire programmi _Flowgorithm_ in _Python_.
 
 1. TOC
 {: toc }
 
 ## Introduzione
 
-_python_ è uno fra i più diffusi linguaggi di programmazione, se non il più diffuso.
+_Python_ è uno fra i più diffusi linguaggi di programmazione, se non il più diffuso.
 È un linguaggio facile da imparare ed è utilizzabile in moltissimi campi: applicazioni
 per computer e smartphone, analisi dati, intelligenza artificiale, siti web,
 dispositivi connessi a internet, …
 
-La probabilità di incontrare _python_ in un posto di lavoro è molto alta,
+La probabilità di incontrare _Python_ in un posto di lavoro è molto alta,
 anche in caso di lavori non direttamente legati all'informatica.
 
-Cercare su YouTube "introduzione a python".
+Cercare su YouTube "introduzione a Python".
 
 ## Installazione e primo utilizzo
 
-_python_ può essere installato in vari modi, in funzione del tipo di computer e sistema operativo.
+_Python_ può essere installato in vari modi, in funzione del tipo di computer e sistema operativo.
 Per maggiori informazioni, consultare il sito ufficiale [python.it](https://www.python.it).
 
-In questo corso **non** installeremo _python_ sul computer, ma utilizzeremo un servizio offerto
-da Google per lavorare direttamente con _python_ (e non solo) senza dover installare nulla.
-L'utilizzo di questo servizio è il modo più semplice per cominciare a lavorare con _python_.
+In questo corso **non** installeremo _Python_ sul computer, ma utilizzeremo un servizio offerto
+da Google per lavorare direttamente con _Python_ (e non solo) senza dover installare nulla.
+L'utilizzo di questo servizio è il modo più semplice per cominciare a lavorare con _Python_.
 In aggiunta, il servizio consente di capire cosa sia un notebook e come funzionino
-le celle dei notebook che contengono codice _python_: questi argomenti sono importanti
+le celle dei notebook che contengono codice _Python_: questi argomenti sono importanti
 e utilizzati in molte applicazioni di analisi dati, conoscerli non fa male.
 
 Aprire quindi il sito Google Colab all'indirizzo [colab.research.google.com](https://colab.research.google.com)
@@ -52,7 +52,7 @@ Questo modo di lavorare, scrivere cioè documenti che contengono codice che calc
 (ad esempio un grafico o altro) all'interno del documento stesso è molto diffuso e
 viene spesso usato in applicazioni di analisi dei dati.
 
-Useremo un notebook come ambiente per scrivere semplici programmi _python_,
+Useremo un notebook come ambiente per scrivere semplici programmi _Python_,
 spesso derivanti da programmi Flowgorithm già conosciuti.
 
 I notebook vengono salvati nella propria cartella Google Drive.
@@ -85,21 +85,21 @@ La cella stamperà il testo `Hello World`, perchè questo è quello che il nostr
 ha richiesto tramite l'istruzione `print`. È possibile aggiungere ulteriori celle premendo
 i pulsanti `+ Code` oppure `+ Text`, se si tratta di celle con codice oppure testuali.
 
-## Scrivere codice python partendo da Flowgorithm
+## Scrivere codice Python partendo da Flowgorithm
 
-Vediamo ora come convertire i blocchi Flowgorithm in istruzioni _python_. Un algoritmo in
-Flowgorithm può essere riscritto in _python_ semplicemente traducendo blocco per blocco.
-Con un minimo di manualità, sarà poi possibile scrivere codice direttamente in _python_
+Vediamo ora come convertire i blocchi Flowgorithm in istruzioni _Python_. Un algoritmo in
+Flowgorithm può essere riscritto in _Python_ semplicemente traducendo blocco per blocco.
+Con un minimo di manualità, sarà poi possibile scrivere codice direttamente in _Python_
 senza dover prima definire il diagramma Flowgorithm.
 
 ### Dichiarazione
 
-Il blocco _Dichiarazione_ non è necessario in _python_ e deve essere omesso.
+Il blocco _Dichiarazione_ non è necessario in _Python_ e deve essere omesso.
 
 ### Lettura e Scrittura
 
 I blocchi _Lettura_ e _Scrittura_ chiedono all’utente (lettura) o comunicano all’utente
-(scrittura) il valore di una variabile. In _python_, la lettura è effettuata
+(scrittura) il valore di una variabile. In _Python_, la lettura è effettuata
 dall'istruzione `input`, che legge una stringa. Se ci si aspetta un intero,
 la stringa deve essere convertita in intero manualmente tramite l'istruzione `int`.
 
@@ -107,7 +107,7 @@ la stringa deve essere convertita in intero manualmente tramite l'istruzione `in
 
 ![](leggi1.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 nome = input()
@@ -119,7 +119,7 @@ Le parentesi aperte e chiuse senza nulla al loro interno sono necessarie per l'i
 
 ![](leggi2.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 n = int(input())
@@ -133,7 +133,7 @@ Per questo, nel caso di lettura di interi, le parentesi sono doppie.
 
 ![](leggi3.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 n = float(input())
@@ -141,13 +141,13 @@ n = float(input())
 
 L'istruzione `int` è sostituita da `float` in caso di numero reali, cioè numeri con la virgola.
 La virgola dovrà però essere sostituita dal punto (`3.14` invece che `3,14`) quando questa
-viene digitata, in quanto _python_ segue il sistema anglosassone in cui si usa il punto.
+viene digitata, in quanto _Python_ segue il sistema anglosassone in cui si usa il punto.
 
 #### Scrivere una variabile
  
 ![](scrivi1.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 print(x)
@@ -163,7 +163,7 @@ L'istruzione `print` accetta all'interno delle parentesi espressioni anche più 
 
 ![](scrivi2.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 print(x + y)
@@ -177,7 +177,7 @@ invece di scrivere `50` direttamente nel testo del messaggio.
 
 ![](scrivi3.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 print("Hai vinto ", vincita, " euro")
@@ -192,10 +192,10 @@ il tutto all'interno delle parentesi della funzione `print`.
 
 L’_Assegnazione_ imposta una variabile a un determinato valore, cioè assegna
 quel valore alla variabile. Se la variabile non esiste, viene dichiarata all'istante:
-per questo non è necessario in _python_ dichiarare le variabili e per questo il blocco
-_Dichiarazione_ di Flowgorithm non ha un corrispettivo in _python_.
+per questo non è necessario in _Python_ dichiarare le variabili e per questo il blocco
+_Dichiarazione_ di Flowgorithm non ha un corrispettivo in _Python_.
 
-Le assegnazioni sono scritte direttamente in _python_ e il loro codice corrisponde
+Le assegnazioni sono scritte direttamente in _Python_ e il loro codice corrisponde
 a quello nei diagrammi a blocchi, senza dover usare nessuna istruzione particolare.
 
 Le assegnazioni utilizzano l'uguale singolo `=`.
@@ -204,7 +204,7 @@ Le assegnazioni utilizzano l'uguale singolo `=`.
 
 ![](assegna1.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 x = 10
@@ -214,7 +214,7 @@ x = 10
 
 ![](assegna2.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 nome = "Giovanni"
@@ -226,7 +226,7 @@ Assumendo le variabili `x` e `y` già definite e contenenti dei numeri (interi o
 
 ![](assegna3.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 z = x * 2 + y * 3
@@ -239,14 +239,14 @@ In caso _vero_, il programma esegue le istruzioni della parte `if`. In caso _fal
 esegue le istruzioni della parte `else`, che può anche essere omessa se non c'è alcuna istruzione
 da eseguire. Al termine, il programma continua dritto.
 
-In _python_, a volte come in questo caso il codice deve essere scritto indentato,
+In _Python_, a volte come in questo caso il codice deve essere scritto indentato,
 cioè incolonnato verso destra, rispetto a una istruzione principale. È il caso di `if` e `else`.
 
 #### Condizione semplice
 
 ![](condizione1.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 if x > y:
@@ -257,7 +257,7 @@ if x > y:
 Notare il due-punti a concludere la riga con `if`. Le istruzioni del ramo _vero_,
 cioè quando effettivamente `x` è maggiore di `y`, vengono riportate indentate,
 cioè incolonnate verso destra di 2 spazi rispetto alla riga dell'`if`.
-In questo modo _python_ è in grado di riconoscere quali istruzioni fanno parte del ramo _vero_
+In questo modo _Python_ è in grado di riconoscere quali istruzioni fanno parte del ramo _vero_
 dell'`if` e quali no.
 
 Gli spazi dell'indentazione sono necessari e devono essere uguali per tutte le istruzioni
@@ -267,7 +267,7 @@ contenute nel ramo. Non mettere gli spazi o mettere spazi non uguali è consider
 
 ![](condizione2.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 if nome == "Giovanni":
@@ -306,7 +306,7 @@ Alcuni esempi per comprendere meglio:
 Così come il blocco _Condizione_ visto precedentemente, il blocco _Mentre_ introduce
 una condizione che deve essere scritta in forma di espressione _vero_ o _falso_.
 
-In _python_, in blocco è espresso dall'istruzione `while`. Così come `if`, `while` richiede
+In _Python_, in blocco è espresso dall'istruzione `while`. Così come `if`, `while` richiede
 una condizione e una o più istruzioni indentate, che vengono eseguite a ripetizione fino
 a quando la condizione è _vera_.
 
@@ -316,7 +316,7 @@ Le condizioni vengono scritte esattamente come le condizioni per l'istruzione `i
 
 ![](mentre.png)
 
-equivale in _python_ a:
+equivale in _Python_ a:
 
 ```python
 while x >= 10:
@@ -327,20 +327,20 @@ while x >= 10:
 
 ### Fai (`do … while`)
 
-Non esiste codice equivalente per questo blocco in _python_.
+Non esiste codice equivalente per questo blocco in _Python_.
 
 L'algoritmo deve essere modificato per esprimerlo attraverso un blocco `while` e non `do … while`,
-e successivamente riscritto in _python_ come spiegato sopra.
+e successivamente riscritto in _Python_ come spiegato sopra.
 
 ### Indentazione multipla
 
 È possibile inserire istruzioni `if` dentro `while`, `if` dentro `if`, `while` dentro `while`, ecc…
-_python_ non pone limiti a quanto il codice può essere indentato, l'importante è che l'indentazione
+_Python_ non pone limiti a quanto il codice può essere indentato, l'importante è che l'indentazione
 sia ben ordinata e corrisponda alla logica che si vuole implementare.
 
 Se ad esempio ogni blocco è indentato di 2 spazi, il primo livello deve essere indentato di 2 spazi, il secondo di 4, il terzo di 6, …
 
-L'indentazione è importantissima in _python_ in quanto ha effetto su come il programma si comporta.
+L'indentazione è importantissima in _Python_ in quanto ha effetto su come il programma si comporta.
 Sbagliare l'indentazione produce degli errori o un comportamento non corretto del programma.
 
 Questo esempio mostra 3 livelli di indentazione:
@@ -363,12 +363,12 @@ print("Fine dell'esercizio")
 
 ## Funzioni
 
-_python_ contiene migliaia di funzioni e può essere esteso attraverso migliaia librerie esterne,
+_Python_ contiene migliaia di funzioni e può essere esteso attraverso migliaia librerie esterne,
 che a loro volta contengono spesso altre migliaia di funzioni. È un universo in rapida espansione.
 Esiste una libreria e una funzione per ogni cosa, dall'accesso a internet all'analisi dati
 dall'intelligenza artificiale al disegno 3D e ai videogiochi.
 
-Ecco l'equivalente _python_ di alcune funzioni di Flowgorithm:
+Ecco l'equivalente _Python_ di alcune funzioni di Flowgorithm:
 - `randint(a, b)` - un numero casuale tra `a` e `b`.
 - `len(s)` - la lunghezza della stringa `s`, ovvero di quanti caratteri è composta.
 - `abs(n)` - il valore assoluto di `n`.
@@ -381,7 +381,7 @@ Attenzione:
 - per utilizzare `sqrt`, è necessario scrivere a inizio notebook l'istruzione:
   `from math import sqrt`
 
-_python_ è ben documentato: l’elenco completo di tutti i moduli (`from … import …`) e di tutte
+_Python_ è ben documentato: l’elenco completo di tutti i moduli (`from … import …`) e di tutte
 le funzioni di ogni modulo è disponibile nella sconfinata
 [documentazione online](https://docs.python.org/3). Oppure cercare con Google la funzione
 che serve di volta in volta, facendo attenzione a specificare "python" nella ricerca,

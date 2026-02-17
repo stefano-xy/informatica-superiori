@@ -11,7 +11,7 @@ Alcuni argomenti trattati:
 
 - Sistema di numerazione binario e esadecimale, conversioni.
 - Algoritmi tramite Flowgorithm e FlowRun.
-- Conversione dei suddetti algoritmi in _python_.
+- Conversione dei suddetti algoritmi in _Python_.
 - Pagine web con _HTML_, _CSS_, _JavaScript_.
 - Introduzione alla programmazione tramite _C++_.
 - Esercizi relativi.

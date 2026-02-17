@@ -24,12 +24,12 @@ dell'indirizzo Turistico (2° anno), con il seguente programma:
   - Scrivere algoritmi tramite diagrammi di flusso.
   - Leggere e scrivere variabili.
   - Blocchi condizionali e ripetitivi.
-- Linguaggio di programmazione _[python](codice/index.md)_.
-  - Istruzioni _python_ corrispondenti ai blocchi dei diagrammi di flusso.
-  - Indentazione in _python_.
+- Linguaggio di programmazione _[Python](codice/index.md)_.
+  - Istruzioni _Python_ corrispondenti ai blocchi dei diagrammi di flusso.
+  - Indentazione in _Python_.
   - Utilizzo di notebooks in _Google Colab_.
-- [Diagrammi di esempio](esempi/index.md) con codice _python_ corrispondente.
-- [Esercitazioni in laboratorio](esercitazioni/index.md) con diagrammi a blocchi e in _python_.
+- [Diagrammi di esempio](esempi/index.md) con codice _Python_ corrispondente.
+- [Esercitazioni in laboratorio](esercitazioni/index.md) con diagrammi a blocchi e in _Python_.
   - Esercizi numerici.
   - Nome e età degli utenti.
   - Stampare numeri.

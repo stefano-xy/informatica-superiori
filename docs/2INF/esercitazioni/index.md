@@ -7,7 +7,7 @@ nav_order: 9
 
 # Esercitazioni con soluzioni allegate
 
-Alcune esercitazioni su _Flowrun_ e _python_ con soluzioni allegate (da scaricare).
+Alcune esercitazioni su _Flowrun_ e _Python_ con soluzioni allegate (da scaricare).
 
 1. TOC
 {: toc }

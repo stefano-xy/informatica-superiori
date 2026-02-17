@@ -1,13 +1,13 @@
 ---
-title: Esempi python
+title: Esempi Python
 parent: 2INF
 layout: page
 nav_order: 6
 ---
 
-# Esempi di codice python
+# Esempi di codice Python
 
-Alcune esercizi con _python_ spiegati.
+Alcune esercizi con _Python_ spiegati.
 
 1. TOC
 {: toc }
@@ -171,7 +171,7 @@ Bisogna importare la funzione `randint` per poterla usare tramite `from random i
 
 Prima possibile soluzione:
 
-```python
+```Python
 # Per poter usare la funzione randint dobbiamo "prenderla" (importarla) dal modulo random
 from random import randint
 

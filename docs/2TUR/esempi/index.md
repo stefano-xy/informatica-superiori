@@ -5,9 +5,9 @@ layout: page
 nav_order: 3
 ---
 
-# Esempi con Flowgorithm e _python_
+# Esempi con Flowgorithm e Python
 
-Ecco alcuni esempi di semplici algoritmi e programmi con _Flowgorithm_ e loro equivalenti in _python_.
+Ecco alcuni esempi di semplici algoritmi e programmi con _Flowgorithm_ e loro equivalenti in _Python_.
 
 1. TOC
 {: toc }
@@ -18,7 +18,7 @@ Chiede all'utente due numeri e stampa la loro somma.
 
 ![](somma.png)
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
 ```python
 x = int(input())
@@ -32,7 +32,7 @@ Chiede all'utente due numeri e indica quale è il maggiore.
 
 ![](maggiore.png)
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
 ```python
 x = int(input())
@@ -49,7 +49,7 @@ Chiedi a ripetizione un numero all'utente fino a quando questo non inserisce zer
 
 ![](ripeti.png)
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
 ```python
 x = int(input())
@@ -64,7 +64,7 @@ Ogni volta che il programma viene eseguito stampa un numero diverso.
 
 ![](casuale.png)
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
 ```python
 from random import randint
@@ -79,7 +79,7 @@ Scrive con una ripetizione tutti i numeri da 1 a 100.
 
 [Diagramma](scrivi_100_numeri.fprg){: .btn }
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
 ```python
 n = 1
@@ -95,7 +95,7 @@ non viene inserito un numero maggiore di 10.
 
 [Diagramma](inserisci_maggiore_di_10.fprg){: .btn }
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
 ```python
 print("Inserisci un numero maggiore di 10")
@@ -111,7 +111,7 @@ Data l'età dell'utente, scrive quali mezzi di trasporto può guidare.
 
 [Diagramma](cosa_puoi_guidare.fprg){: .btn }
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
 ```python
 print("Quanti anni hai?")
@@ -132,9 +132,9 @@ il mezzo di trasporto più grande come nell'esempio precedente.
 
 [Diagramma](cosa_puoi_guidare_2.fprg.fprg){: .btn }
 
-Codice equivalente in _python_:
+Codice equivalente in _Python_:
 
-```python
+```Python
 print("Quanti anni hai?")
 eta = int(input())
 if eta >= 18:
@@ -152,10 +152,10 @@ Chiede alcuni numeri e stampa il massimo fra di essi.
 
 [Diagramma](massimo.fprg){: .btn }
 
-Il programma non può essere convertito in _python_ in quanto
-fa uso del blocco _Fai_. Come [spiegato](../codice/index.md#fai-do--while) non esiste in _python_
+Il programma non può essere convertito in _Python_ in quanto
+fa uso del blocco _Fai_. Come [spiegato](../codice/index.md#fai-do--while) non esiste in _Python_
 un modo per scrivere questo blocco. È necessario prima modificare
 il programma _Flowgorithm_ per sostituire _Fai_ con _Mentre_,
-e successivamente trasformare il programma in _python_.
+e successivamente trasformare il programma in _Python_.
 
 Questo è lasciato come esercizio.

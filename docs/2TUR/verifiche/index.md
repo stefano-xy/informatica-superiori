@@ -67,7 +67,7 @@ Risolvere su _Flowgorithm_ i seguenti esercizi e inviare i file come soluzioni.
 
 ## Preparazione alla verifica 2
 
-Convertire in codice _python_ i due diagrammi allegati.
+Convertire in codice _Python_ i due diagrammi allegati.
 Provare in un notebook di _Google Colab_ gli esercizi.
 Consegnare il notebook di _Google Colab_ come soluzione.
 
@@ -77,7 +77,7 @@ Consegnare il notebook di _Google Colab_ come soluzione.
 
 ## Verifica 2
 
-Implementare in _python_ i seguenti esercizi in un notebook di _Google Colab_.
+Implementare in _Python_ i seguenti esercizi in un notebook di _Google Colab_.
 
 [Es. 1, Tabellina](verifica2/es1_tabellina.fprg){: .btn }
 
