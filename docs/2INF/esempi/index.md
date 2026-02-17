@@ -1,20 +1,128 @@
 ---
-title: Esempi
+title: Esempi python
 parent: 2INF
 layout: page
 nav_order: 6
 ---
 
-# Esempi di codice Python
+# Esempi di codice python
 
-Alcune esercitazioni su _Flowrun_ e _python_ con soluzioni allegate (da scaricare).
+Alcune esercizi con _python_ spiegati.
 
 1. TOC
 {: toc }
 
+Possiamo scrivere e verificare questi programmi su:
+
+- [FARE](https://fare.polito.it/python), ambiente del Politecnico di Torino.
+- [Online GDB](https://www.onlinegdb.com), ricordandoci di selezionare _Python 3_ da menù in alto a destra.
+
 ## Numeri primi
 
-_(in via di pubblicazione)_
+In questo esempio vogliamo calcolare e stampare dei numeri primi.
+Definizione: un numero è primo se è divisibile solo per 1 e per sé stesso.
+
+Per verificare se un numero `a` è divisibile per un numero `b`, usiamo
+l'operatore _modulo_ (`%`) che calcola il resto della divisione di `a` per `b`.
+Verifichiamo se `b` è divisore di `a` controllando se `a % b == 0`.
+
+In generale, per un numero `n` se non si trova un divisore fra `2` e `n - 1`, allora `n` è primo.
+
+Esistono algoritmi sicuramente più complessi e efficienti per verificare
+se un numero è primo ma noi useremo questo algoritmo semplice. I numeri
+primi sono fondamentali in matematica e informatica, in particolare per la crittografia:
+c'è tanto tanto lavoro universitario e di centri di ricerca ma a noi _va bene così_.
+
+Separiamo allora l'esercizio in 2 parti.
+
+### Controllare se un numero è primo
+
+Chiediamo all'utente un numero `n` e verifichiamo se è primo:
+
+```python
+n = int(input("Inserisci un numero"))
+
+# Il numero è primo fino a prova contraria
+is_prime = True
+
+# Cerchiamo quindi le prove contrarie, cerchiamo cioè
+# se esiste almeno un divisore fra 2 e n - 1.
+for d in range(2, n): # range(2, n) esclude n
+  if n % d == 0:      # se d è divisore di n
+    is_prime = False  # allora n non è primo
+    break             # Non è necessario, ma leggi sotto
+
+# Stampiamo il risultato
+if is_prime:
+  print(n, "è primo")
+else:
+  print(n, "non è primo")
+```
+
+Il cuore dell'algoritmo, il ciclo `for`, ricerca i potenziali divisori `d`
+nell'intervallo fra `2` e `n - 1`, usando `range(2, n)` che include
+nell'intervallo il 2 ma non include l'_n_.
+
+L'istruzione `break` serve per abbreviare il calcolo. Avendo trovato
+un divisore, non ha senso continuare a cercare quindi `break` blocca
+il ciclo `for` prima che questo si concluda. Non è essenziale farlo.
+
+### Stampa dei numeri primi fino a 1000
+
+Capito come si controlla se un numero è primo o meno, possiamo
+usare il cuore dell'esempio precedente per stampare tutti i numeri
+primi che si trovano fino a 1000. Non serve più chiedere all'utente niente.
+
+```python
+for n in range(2, 1000 + 1): # andiamo a cercare i numero fino a 1000 incluso
+  is_prime = True
+  for d in range(2, n): # range(2, n) esclude n
+    if n % d == 0:
+      is_prime = False
+      break
+  if is_prime:
+    print(n)
+```
+
+Vediamo che il numero primo più grande prima di 1000 è **997**.
+
+### Stampa dei primi 1000 numeri primi
+
+Un'altra variante potrebbe essere quella di stampare
+tutti i numeri primi finché non se ne trovino 1000.
+
+Usiamo un `while` e contiamo quanti ne troviamo.
+Non possiamo usare un `for` perché non sappiamo questi
+1000 numeri quali sono e quindi fino a che numero cercare.
+
+```python
+found = 0 # qui contiamo quanti ne abbiamo trovati
+n = 2     # partiamo da 2
+
+# Andiamo alla ricerca fino a quando non ne troviamo 1000
+while found < 1000:
+
+  # Verifichiamo n
+  is_prime = True
+  for d in range(2, n): # range(2, n) esclude n
+    if n % d == 0:
+      is_prime = False
+      break
+
+  # n è primo, segnamocelo
+  if is_prime:
+    found = found + 1
+    print(n)
+  
+  # Prossimo n
+  n = n + 1
+```
+
+Ci mette un po' perché troveremo che il millesimo numero primo è **7919**.
+Più un numero è grande e più ci mette a fare il controllo.
+
+Vedete quanto ci mette e poi provate a vedere quanto ci mette senza `break`.
+Vedrete che ci impiegherà _molto_ di più.
 
 ## Tavola pitagorica
 
