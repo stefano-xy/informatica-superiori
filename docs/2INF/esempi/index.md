@@ -387,3 +387,54 @@ else:
     "et",
     "manque" if is_low else "passe")
 ```
+
+## 7 e mezzo
+
+Simuliamo [7 e mezzo](https://it.wikipedia.org/wiki/Sette_e_mezzo), il gioco di carte.
+Il banco chiede al giocatore se vuole una carta e si ripete finché
+il giocatore non dice _basta_ oppure sballa, cioè accumula più punti di 7 e mezzo.
+
+Queste le regole del gioco semplificate:
+
+- Al giocatore si chiede se vuole una carta.
+- Se esce una carta semplice, da 1 (asso) a 7, questi sono
+  i punti che il giocatore accumula.
+- Se esce una figura: 8 (fante), 9 (cavallo) o 10 (re)
+  il giocatore accumula 0,5 punti.
+- Se il giocatore raggiunge esattamente 7,5 ha vinto.
+- Se il giocatore supera 7,5 ha perso.
+- Altrimenti il giocatore può chiedere un'altra carta
+  o fermarsi al punteggio che ha accumulato.
+
+Il gioco vero è più complicato, ha il re di denari, ma noi facciamo una
+versione semplificata che non ha i semi ma ha solo carte semplici da 1 a 10.
+
+Una possibile soluzione può essere:
+
+```python
+# 7 e mezzo
+from random import randint
+punti = 0
+
+# Chiedi al giocatore se vuole una carta
+while input("Carta? ") in ["si", "sì", "Sì", "Si"]:
+    
+  carta = randint(1, 10) # pesca una carta da 1 a 10
+  print("Hai pescato", carta)
+  
+  if carta in [8, 9, 10]: # è una figura
+    punti = punti + 0.5
+  else:
+    punti = punti + carta
+    
+  print("Hai", punti, "punti")
+  
+  if punti == 7.5:
+    print("Hai vinto, 7 e mezzo!")
+    break # interrompi il while perchè hai vinto
+  elif punti > 7.5:
+    print("Hai sballato e hai perso!")
+    break # interrompi il while perchè hai perso
+
+print("Hai fatto", punti, "punti")
+```
