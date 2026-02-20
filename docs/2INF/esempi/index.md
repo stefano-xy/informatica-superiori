@@ -438,3 +438,5 @@ while input("Carta? ") in ["si", "sì", "Sì", "Si"]:
 
 print("Hai fatto", punti, "punti")
 ```
+
+_Vi auguro di sballare alle verifiche_ 😊.

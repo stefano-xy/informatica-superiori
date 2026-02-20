@@ -83,6 +83,8 @@ Mostrare tutti i passaggi intermedi.
 
 ## Verifica 2a: algoritmi e diagrammi
 
+Risolvere con [FlowRun](https://www.flowrun.io).
+
 1. Anagrafica (facile)
 
    Chiedere all'utente il proprio nome, comune di nascita e l'anno di nascita.
@@ -133,6 +135,8 @@ Mostrare tutti i passaggi intermedi.
    In nessun caso però sono necessari più di 3 o 4 blocchi condizionali (`if`).
 
 ## Verifica 2b: algoritmi e diagrammi
+
+Risolvere con [FlowRun](https://www.flowrun.io).
 
 1. Mini calcolatrice (facile)
 
