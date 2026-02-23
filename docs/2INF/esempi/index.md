@@ -440,3 +440,54 @@ print("Hai fatto", punti, "punti")
 ```
 
 _Vi auguro di sballare alle verifiche_ 😊.
+
+## Temperature settimanali
+
+Raccogliamo le temperature dell'ultima settimana, chiedendo all'utente
+che temperatura a fatto i giorni precedenti. Questo lo facciamo per
+gli ultimi 7 giorni.
+
+Chiediamo all'utente la temperatura degli ultimi 7 giorni:
+- _Che temperatura ha fatto 1 giorno/i fa?_
+- _Che temperatura ha fatto 2 giorno/i fa?_
+- _Che temperatura ha fatto 3 giorno/i fa?_
+- ...
+
+Calcoliamo la temperatura massima, minima e media dell'ultima settimana.
+Stampiamo il risultato.
+
+```python
+# Temperature settimanali
+max_t = -100 # Valore massimo di partenza
+min_t = +100 # Valore minimo di partenza
+sum_t = 0
+
+for i in range(1, 8):
+  t = float(input("Che temperatura ha fatto " + str(i) + " giorni fa?"))
+  if t > max_t:
+    max_t = t       # aggiorna la temperatura massima
+  if t < min_t:
+    min_t =         # aggiorna la temperatura minima
+  sum_t = sum_t + t # aggiorna la somma delle temperature
+
+# Calcola la temperatura media
+avg_t = sum_t / 7
+
+print("Temperatura max", max_t)
+print("Temperatura min", min_t)
+print("Temperatura media", avg_t)
+```
+
+Vediamo alcune particolarità:
+
+1. I valori di partenza per il minimo e massimo possono essere numeri
+   che sicuramente sono irraggiungibili, in modo da non dar fastidio al calcolo.
+   Se partiamo come minimo +100, siamo sicuri che qualunque temperatura inserita
+   dall'utente sarà minore di +100. Se avessimo messo zero, il nostro zero
+   sarebbe stato probabilmente il minimo, avrebbe quindi dato fastidio al calcolo.
+   Stessa cosa per il massimo.
+
+2. Formattiamo il messaggio di input concatenando a mano le stringhe.
+   Non possiamo usare il _trucco_ che usiamo con `print`, cioè semplicemente
+   separare i parametri da virgola, in quanto questo non è supportato da `input`.
+   Necessario convertire `i` a stringa manualmente con funzione `str`.
