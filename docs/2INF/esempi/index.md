@@ -158,7 +158,7 @@ for x in range(1, 11):    # fino a 10, cioè 11 escluso
 
 Il parametro `end=" "` fa si che invece di terminare la stampa del numero
 andando a capo, come normalmente avviene, si aggiunge uno spazio. Così facendo
-i numeri non vengono più stampati in un'unico elenco, ma in un'unica riga.
+i numeri non vengono più stampati in un unico elenco, ma in un'unica riga.
 Aggiungendo poi il secondo `print()` a fine di ogni riga, cioè alla fine
 di ogni ciclo `for` esterno, questo va a capo.
 
