@@ -18,7 +18,7 @@ e semplici regole per convertire programmi _Flowgorithm_ in _Python_.
 
 _Python_ è uno fra i più diffusi linguaggi di programmazione, se non il più diffuso.
 È un linguaggio facile da imparare ed è utilizzabile in moltissimi campi: applicazioni
-per computer e smartphone, analisi dati, intelligenza artificiale, siti web,
+per computer e smartphone, analisi dati, **intelligenza artificiale**, siti web,
 dispositivi connessi a internet, …
 
 La probabilità di incontrare _Python_ in un posto di lavoro è molto alta,
@@ -172,19 +172,17 @@ print(x + y)
 #### Scrivere un messaggio composto
 
 Immaginiamo di avere una vincita di 50 € a un gioco memorizzata nella variabile `vincita`.
-Vogliamo scrivere il messaggio "Hai vinto 50 euro", usando la variabile `vincita`
-invece di scrivere `50` direttamente nel testo del messaggio.
+Vogliamo scrivere il messaggio _Hai vinto 50 euro_, usando la variabile `vincita`.
 
 ![](scrivi3.png)
 
 equivale in _Python_ a:
 
 ```python
-print("Hai vinto ", vincita, " euro")
+print("Hai vinto", vincita, "euro")
 ```
 
-Gli spazi nel testo virgolettato sono necessari altrimenti `50` appare attaccato
-a `vinto` oppure `euro`. Le virgole separano i 3 testi o variabili da stampare,
+Le virgole separano i 3 testi o variabili da stampare,
 il tutto all'interno delle parentesi della funzione `print`.
 È possibile stampare 2, 3, 4 o più componenti, tutti separati da virgole.
 
@@ -383,6 +381,6 @@ Attenzione:
 
 _Python_ è ben documentato: l’elenco completo di tutti i moduli (`from … import …`) e di tutte
 le funzioni di ogni modulo è disponibile nella sconfinata
-[documentazione online](https://docs.python.org/3). Oppure cercare con Google la funzione
+[documentazione online](https://docs.python.org/it/3). Oppure cercare con Google la funzione
 che serve di volta in volta, facendo attenzione a specificare "python" nella ricerca,
 ad esempio "lunghezza di una stringa in python".

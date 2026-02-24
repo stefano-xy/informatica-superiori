@@ -217,7 +217,7 @@ Quando la condizione diventa _falsa_, il ciclo si interrompe e il programma cont
 dopo il ciclo. Se la condizione è _falsa_ fin dall'inizio, i blocchi sulla destra
 non vengono eseguiti neanche una volta.
 
-### Do While (fai … finchè …)
+### Do … While (fai … finchè …)
 
 Così come il blocco _While_ visto precedentemente, il blocco _Do While_ introduce
 una condizione che deve essere scritta in forma di espressione _vero_ o _falso_,

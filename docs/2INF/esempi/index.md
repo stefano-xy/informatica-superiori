@@ -53,7 +53,7 @@ for d in range(2, n): # range(2, n) esclude n
     break             # Non è necessario, ma leggi sotto
 
 # Stampiamo il risultato
-if is_prime:
+if is_prime:          # più elegante ma uguale a is_prime == True
   print(n, "è primo")
 else:
   print(n, "non è primo")
@@ -76,7 +76,7 @@ primi che si trovano fino a 1000. Non serve più chiedere all'utente niente.
 ```python
 for n in range(2, 1000 + 1): # andiamo a cercare i numero fino a 1000 incluso
   is_prime = True
-  for d in range(2, n): # range(2, n) esclude n
+  for d in range(2, n):      # range(2, n) esclude n
     if n % d == 0:
       is_prime = False
       break
@@ -153,7 +153,7 @@ correttamente, solo alla fine cioè di ogni riga:
 for x in range(1, 11):    # fino a 10, cioè 11 escluso
   for y in range(1, 11):
     print(x * y, end=" ") # non va a capo ma lascia uno spazio
-  print()                 # va a capo
+  print()                 # va a capo a fine del ciclo più interno
 ```
 
 Il parametro `end=" "` fa si che invece di terminare la stampa del numero
@@ -173,7 +173,7 @@ for x in range(1, 11):    # fino a 10, cioè 11 escluso
   for y in range(1, 11):
     n = x * y
     if n < 10:
-      print("", end=" ")  # stampa uno spazio e non va a capo
+      print("", end=" ")  # stampa uno spazio in più e non va a capo
     print(n, end=" ")     # non va a capo ma lascia uno spazio
   print()                 # va a capo
 ```
