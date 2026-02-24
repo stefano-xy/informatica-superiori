@@ -461,7 +461,7 @@ Le condizioni vengono scritte esattamente come le condizioni per l'istruzione `i
 
 equivale in _Python_ a:
 
-```
+```python
 x = int(input())
 
 while x >= 10:

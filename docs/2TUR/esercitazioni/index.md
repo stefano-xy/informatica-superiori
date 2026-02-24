@@ -53,7 +53,7 @@ Risolvere su _Flowgorithm_ i seguenti problemi e inviare i file come soluzioni.
 
 Risolvere su _Flowgorithm_ i seguenti problemi e inviare i file come soluzioni.
 
-1. Chiedere all'utente un numero stampare tutti i numeri da 1 fino a quel numero.
+1. Chiedere all'utente un numero e stampare tutti i numeri da 1 fino a quel numero.
 
    [Soluzione](ripetizioni2/es1_stampa_numeri.fprg){: .btn }
 
@@ -78,4 +78,4 @@ Convertire in codice _Python_ le soluzioni ai 3 esercizi riportati nella [parte 
 
   [Soluzione](ripetizioni2/esercitazione.ipynb){: .btn }
 
-Come usare _Colab_ e _Python_? Ricordarsi le spiegazione e le esercitazioni dei giorni passati e leggere il breve manuale [_Python e Colab_](../codice/index.md) scritto come materiale didattico.
+Come usare _Colab_ e _Python_? Ricordarsi le spiegazioni e le esercitazioni dei giorni passati e leggere il breve manuale [_Python e Colab_](../codice/index.md) scritto come materiale didattico.

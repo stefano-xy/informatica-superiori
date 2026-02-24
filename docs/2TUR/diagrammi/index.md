@@ -38,7 +38,7 @@ fra _Inizio_ e _Fine_, e selezionare quale blocco inserire fra quelli proposti d
 Flowgorithm differisce dagli schemi spesso fatti alla lavagna in quanto necessita
 di una dichiarazione esplicita delle variabili usate (blocco _Dichiarazione_)
 e dal fatto che non permette alle frecce di essere disegnate
-e connessa a piacere con i blocchi.
+e connesse a piacere con i blocchi.
 
 ### Dichiarazione
 
@@ -90,7 +90,7 @@ Nelle espressioni è possibile utilizzare le operazioni:
 - `-` sottrazione
 - `*` moltiplicazione
 - `/` divisione
-- `%` resto della devisione, detto _modulo_
+- `%` resto della divisione, detto _modulo_
 
 È possibile anche usare le parentesi tonde `(` e `)` come nelle espressioni matematiche.
 
@@ -182,7 +182,7 @@ Il blocco introduce una ripetizione (loop). I blocchi sulla destra vengono ripet
 finché la condizione è _vera_. La condizione viene valutata alla fine di ogni ripetizione.
 Tutto questo si ripete fino a quando la condizione rimane _vera_.
 
-![](fai1.png)
+![](fai2.png)
 
 Quando la condizione diventa _falsa_, il ciclo si interrompe e il programma continua
 dopo il ciclo. I blocchi sulla destra vengono eseguiti almeno una volta,

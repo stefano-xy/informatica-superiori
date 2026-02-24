@@ -118,9 +118,9 @@ print("Quanti anni hai?")
 eta = int(input())
 if eta >= 18:
   print("Puoi guidare una macchina")
-else if eta >= 14:
+elif eta >= 14:
   print("Puoi guidare un motorino")
-else if eta >= 4:
+elif eta >= 4:
   print("Puoi andare in bicicletta")
 else:
   print("Puoi camminare")
@@ -130,11 +130,11 @@ Esiste una versione più corretta dove viene stampato
 tutto quello che una persona può guidare a una certa età, non solo
 il mezzo di trasporto più grande come nell'esempio precedente.
 
-[Diagramma](cosa_puoi_guidare_2.fprg.fprg){: .btn }
+[Diagramma](cosa_puoi_guidare_2.fprg){: .btn }
 
 Codice equivalente in _Python_:
 
-```Python
+```python
 print("Quanti anni hai?")
 eta = int(input())
 if eta >= 18:

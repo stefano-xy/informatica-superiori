@@ -67,13 +67,13 @@ I primi 256 numeri si scrivono da **0** (0) a **FF** (255).
 è una potenza del 2, per la precisione 2^8, e anche 8 stesso
 è una potenza del 2. In quanto un [byte](../codifiche/index.md#byte)
 contiene 8 bit, con i numeri esadecimali da **00** a **FF**
-si possono scrivere facilmente tutti i possibili valore
+si possono scrivere facilmente tutti i possibili valori
 che un _byte_ può avere.
 
 Dividendo il _byte_ in 2 metà, una con i 4 _bit_ più alti
 e l'altra con i 4 _bit_ più bassi, la prima cifra esadecimale
 indica il valore dei _bit_ alti, la seconda cifra
-il valode dei _bit_ bassi.
+il valore dei _bit_ bassi.
 
 _Più comodo di così?_ 😊
 
@@ -146,7 +146,7 @@ che dopo l'8 vengono altre 8 cifre e non 2 prima di arrivare a 10.
 ## Da decimale a esadecimale
 
 Come per il caso [binario](../binario/index.md#da-decimale-a-binario), la conversione
-da decimale e esadecimale si effettua calcolando il resto delle divisioni.
+da decimale a esadecimale si effettua calcolando il resto delle divisioni.
 Questa volta si usa la base 16 invece che 2, quindi le divisioni saranno per 16.
 Il resto è un numero che va da 0 a 15 ed è un po' più difficile calcolarlo
 a mente rispetto al binario, quindi si effettua un passaggio in più per calcolare il resto.

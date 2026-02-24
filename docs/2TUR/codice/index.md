@@ -139,7 +139,7 @@ equivale in _Python_ a:
 n = float(input())
 ```
 
-L'istruzione `int` è sostituita da `float` in caso di numero reali, cioè numeri con la virgola.
+L'istruzione `int` è sostituita da `float` in caso di numeri reali, cioè numeri con la virgola.
 La virgola dovrà però essere sostituita dal punto (`3.14` invece che `3,14`) quando questa
 viene digitata, in quanto _Python_ segue il sistema anglosassone in cui si usa il punto.
 
@@ -304,7 +304,7 @@ Alcuni esempi per comprendere meglio:
 Così come il blocco _Condizione_ visto precedentemente, il blocco _Mentre_ introduce
 una condizione che deve essere scritta in forma di espressione _vero_ o _falso_.
 
-In _Python_, in blocco è espresso dall'istruzione `while`. Così come `if`, `while` richiede
+In _Python_, il blocco è espresso dall'istruzione `while`. Così come `if`, `while` richiede
 una condizione e una o più istruzioni indentate, che vengono eseguite a ripetizione fino
 a quando la condizione è _vera_.
 
@@ -318,7 +318,7 @@ equivale in _Python_ a:
 
 ```python
 while x >= 10:
-  print("Valore di x maggiore di 10")
+  print("Valore di x maggiore o uguale a 10")
   print("Inserire un nuovo valore per x")
   x = int(input())
 ```
@@ -361,7 +361,7 @@ print("Fine dell'esercizio")
 
 ## Funzioni
 
-_Python_ contiene migliaia di funzioni e può essere esteso attraverso migliaia librerie esterne,
+_Python_ contiene migliaia di funzioni e può essere esteso attraverso migliaia di librerie esterne,
 che a loro volta contengono spesso altre migliaia di funzioni. È un universo in rapida espansione.
 Esiste una libreria e una funzione per ogni cosa, dall'accesso a internet all'analisi dati
 dall'intelligenza artificiale al disegno 3D e ai videogiochi.

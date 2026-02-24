@@ -8,7 +8,7 @@ nav_order: 1
 
 ### Benvenuti!
 
-In questo sito è raccolto del materiale didatto sotto forma di dispense,
+In questo sito è raccolto del materiale didattico sotto forma di dispense,
 brevi manuali, esempi e una collezione di esercizi che sono stati usati
 in alcune classi di istituti superiori di secondo grado.
 
@@ -33,7 +33,7 @@ Siete i benvenuti a [contribuire](contrib.md) modificando e ampliando questo mat
 - Introduzione alla programmazione con _[Python](2TUR/codice/index.md)_
   attraverso i notebook di _Google Colab_.
 - [Conversione](2TUR/codice/index.md#scrivere-codice-python-partendo-da-flowgorithm)
-  dei programmi _Flowgorithm_ in _python_.
+  dei programmi _Flowgorithm_ in _Python_.
 - [Esempi](2TUR/esempi/index.md) e [esercitazioni](2TUR/esercitazioni/index.md) relative.
 - Proposte per le [verifiche](2TUR/verifiche/index.md).
 

@@ -92,7 +92,7 @@ Chiedere all’utente 3 numeri.
 - Se i numeri vengono dati in ordine crescente, cioè se ogni numero è maggiore del precedente, scrivere _Numeri in ordine crescente_.
 - Se i numeri vengono dati in ordine decrescente, cioè se ogni numero è minore del precedente, scrivere _Numeri in ordine decrescente_.
 - Se i numeri sono tutti uguali, scrivere _Numeri tutti uguali_.
-Altrimenti scrivere _Numeri in nessun ordine particolare_.
+- Altrimenti scrivere _Numeri in nessun ordine particolare_.
 
 [Soluzione](parte1/es6_crescenti_decrescenti.flowrun){: .btn }
 

@@ -112,13 +112,13 @@ Risolvere con [FlowRun](https://www.flowrun.io).
    
    - _Grazie, buona giornata!_ dalle ore 06:00 alle ore 12:00.
    - _Grazie, buon pomeriggio!_ dalle ore 12:00 alle ore 17:30.
-   - _Grazie, buona serata!_ dalle are 17:30 alle are 22:30.
+   - _Grazie, buona serata!_ dalle ore 17:30 alle ore 22:30.
    - _Grazie, buona notte!_ nei restanti orari, cioè prima delle 06:00 e dopo le 22:30.
 
    Cosa fare esattamente all'ora fra la mattina e il pomeriggio, e a tutte le altre ore
    che possono essere considerate valide sia per un saluto che per un altro?
 
-   Quessto rende l'esercizio difficile e propongo 2 modi per semplificarlo:
+   Questo rende l'esercizio difficile e propongo 2 modi per semplificarlo:
    si considera l'ora di inizio _inclusa_ e l'ora di fine _esclusa_,
    es. _buona giornata_ dalle 06:00 a _prima_ delle 12:00.
 

@@ -72,7 +72,7 @@ riportate sopra anche le seguenti unità definite tramite i
 per un computer, mentre 1.000 è una cifra _più tonda_ per un umano.
 
 Nella pratica, nessuno pronuncia mai _kibibyte_ o _mebibyte_ ma sempre _kilobyte_ e _megabyte_
-intedendo a volte i multipli di 1.000 a volte i multipli di 1.024, facendo
+intendendo a volte i multipli di 1.000 a volte i multipli di 1.024, facendo
 una _gran confusione_. Se non specificato altrimenti, cioè se non si legge _KiB_ o _MiB_,
 bisogna tentare di capire dal contesto quale delle due si intenda.
 
@@ -122,7 +122,7 @@ Codifichiamo il nostro nome in ASCII! Ad esempio _Mario Rossi_ è scritto così:
 ```
 
 Notate il _byte_ **20** usato per codificare lo spazio fra _Mario_ e _Rossi_.
-Notate anche il _byte_ **73** ripetuto 2 volte di file: solo le doppie **s** di _Rossi_.
+Notate anche il _byte_ **73** ripetuto 2 volte di fila: solo le doppie **s** di _Rossi_.
 
 ### ASCII Art!
 
@@ -204,8 +204,8 @@ _Speriamo non sia successo nulla di grave._
 Come si codifica un testo che contiene caratteri Unicode in _byte_?
 Esistono più sistemi ma quello di gran lunga più utilizzato si chiama UTF-8.
 
-Ogni caratte Unicode, sia semplice che più complesso come una emoji,
-si converte in _byte_ con una procedura complessa che fa si che
+Ogni carattere Unicode, sia semplice che più complesso come una emoji,
+si converte in _byte_ con una procedura complessa che fa sì che
 il carattere venga scritto con _uno o più bytes_.
 
 {: .highlight }
@@ -266,13 +266,13 @@ Possiamo rappresentare i colori con 3 componenti fondamentali:
 
 Gli schermi elettronici sono composti da _pixel_, cioè [puntini luminosi](https://it.wikipedia.org/wiki/Pixel).
 Ogni _pixel_ è in realtà composto da 3 _subpixel_, cioè [sotto-pixel](https://it.wikipedia.org/wiki/Sub-pixel),
-uno rosso, uno verde e uno blù. L'occhio umano non riesce a distinguere questi _subpixel_
+uno rosso, uno verde e uno blu. L'occhio umano non riesce a distinguere questi _subpixel_
 se non con una lente di ingrandimento.
 
 ![Subpixel](subpixel.png)
 
 L'occhio umano vede i 3 colori mescolati, e percepisce tutti i colori visibili
-in quanto ogni colore è il risultato di aver mescolato rosso, verde o blù in combinazioni diverse.
+in quanto ogni colore è il risultato di aver mescolato rosso, verde o blu in combinazioni diverse.
 
 ![RGB](rgb.svg)
 
@@ -288,14 +288,14 @@ Un _pixel_ di uno schermo a colori può essere rappresentato con 3 _byte_.
 I colori si rappresentano con 3 byte separati, es. **(10, 9C, EB)** oppure
 la sintassi abbreviata **#109CEB**, usata molto sul web in quanto
 è quella dei linguaggi [HTML](https://www.html.it/guide/guida-html/) e [CSS](https://www.html.it/guide/guida-css-di-base/).
-Il primo _byte_ è il rosso, il secondo il verde, il terzo il blù.
+Il primo _byte_ è il rosso, il secondo il verde, il terzo il blu.
 
 Alcune combinazioni di colori:
 
 - Rosso + verde = Giallo **#FFFF00**
-- Rosso + blù = Magenta **#FF00FF**
-- Verde + blù = Ciano **#00FFFF**
-- Rosso + verde + blù = Bianco **#FFFFFF**
+- Rosso + blu = Magenta **#FF00FF**
+- Verde + blu = Ciano **#00FFFF**
+- Rosso + verde + blu = Bianco **#FFFFFF**
 
 Il nero si ottiene non mescolando alcun colore **#000000**.
 Tutte le gradazioni intermedie si ottengono mescolando i componenti RGB

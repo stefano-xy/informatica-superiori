@@ -7,7 +7,7 @@ nav_order: 6
 
 # Esempi di codice Python
 
-Alcune esercizi con _Python_ spiegati.
+Alcuni esercizi con _Python_ spiegati.
 
 1. TOC
 {: toc }
@@ -156,7 +156,7 @@ for x in range(1, 11):    # fino a 10, cioè 11 escluso
   print()                 # va a capo a fine del ciclo più interno
 ```
 
-Il parametro `end=" "` fa si che invece di terminare la stampa del numero
+Il parametro `end=" "` fa sì che invece di terminare la stampa del numero
 andando a capo, come normalmente avviene, si aggiunge uno spazio. Così facendo
 i numeri non vengono più stampati in un unico elenco, ma in un'unica riga.
 Aggiungendo poi il secondo `print()` a fine di ogni riga, cioè alla fine
@@ -326,7 +326,7 @@ Avendo separato il calcolo dalla stampa, possiamo riscrivere la parte che stampa
 tante volte senza doverci preoccupare di cambiare come il risultato viene calcolato.
 _Separare 2 funzionalità in 2 pezzi di codice distinti_ è sempre un bene.
 
-Stessa versione ancora più elegante, facendo uso della sistassi compatta (tecnica avanzata!) `x if condizione else y`:
+Stessa versione ancora più elegante, facendo uso della sintassi compatta (tecnica avanzata!) `x if condizione else y`:
 
 ```python
 # Per poter usare la funzione randint dobbiamo "prenderla" (importarla) dal modulo random
@@ -444,7 +444,7 @@ _Vi auguro di sballare alle verifiche_ 😊.
 ## Temperature settimanali
 
 Raccogliamo le temperature dell'ultima settimana, chiedendo all'utente
-che temperatura a fatto i giorni precedenti. Questo lo facciamo per
+che temperatura ha fatto i giorni precedenti. Questo lo facciamo per
 gli ultimi 7 giorni.
 
 Chiediamo all'utente la temperatura degli ultimi 7 giorni:
@@ -467,7 +467,7 @@ for i in range(1, 8):
   if t > max_t:
     max_t = t       # aggiorna la temperatura massima
   if t < min_t:
-    min_t =         # aggiorna la temperatura minima
+    min_t = t       # aggiorna la temperatura minima
   sum_t = sum_t + t # aggiorna la somma delle temperature
 
 # Calcola la temperatura media

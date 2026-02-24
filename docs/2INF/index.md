@@ -12,7 +12,7 @@ Il materiale in questa sezione è stato utilizzato nel corso di **Scienze e Tecn
 dell'indirizzo Informatico (2° anno), con il seguente programma:
 
 - Sistema di numerazione [binario](binario/index.md).
-  - Conversione da decimale e binario e viceversa.
+  - Conversione da decimale a binario e viceversa.
   - Operazioni di somma fra numeri binari.
   - Operazioni di `AND`, `OR`, `NOT` bit per bit.
 - Sistema di numerazione [esadecimale](esadecimale/index.md).

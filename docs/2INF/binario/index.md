@@ -67,7 +67,7 @@ Riscriviamo:
 
 Se si fa tutto il calcolo, si scopre che il risultato è, come previsto, **9468**.
 
-Questa vale per i numeri decimali ma lo stesso procedimento
+Questo vale per i numeri decimali ma lo stesso procedimento
 può essere applicato per i numeri **binari** e [esadecimali](../esadecimale/index.md#da-esadecimale-a-decimale).
 
 ## Da binario a decimale
@@ -88,7 +88,7 @@ Anche in questo caso abbiamo indicato sotto ogni cifra la sua posizione, per chi
 
 Il prefisso `0b` serve per indicare che il numero è binario e non confonderlo
 con un numero decimale. Per i numeri [esadecimali](../esadecimale/index.md)
-utilizziamo invece il prefisso prefisso `0x`. Senza prefisso intendiamo numeri decimali.
+utilizziamo invece il prefisso `0x`. Senza prefisso intendiamo numeri decimali.
 Il prefisso non ha alcun effetto nei calcoli e va ignorato.
 
 Eliminiamo le moltiplicazioni `1*` in quanto superflue e
@@ -99,7 +99,7 @@ gli addendi che iniziano con `0*` in quanto il loro valore è sempre zero:
   543210
 ```
 
-Rimangono sono le potenze del 2 che corrispondono agli _uno_. Ogni potenza
+Rimangono solo le potenze del 2 che corrispondono agli _uno_. Ogni potenza
 ha l'esponente che corrisponde alla sua posizione.
 
 Completiamo il calcolo:
@@ -110,7 +110,7 @@ Completiamo il calcolo:
 
 A **101101** in binario corrisponde **45** in decimale.
 
-Altri esempi di conversioni da binario e decimale:
+Altri esempi di conversioni da binario a decimale:
 
 ```math
   0b1011 = 2^3 + 2^1 + 2^0 = 8 + 2 + 1 = 11
@@ -122,7 +122,7 @@ Altri esempi di conversioni da binario e decimale:
 
 Se la conversione da binario a decimale si effettua moltiplicando
 le cifre per varie potenze del 2, la conversione opposta da decimale
-a binario di effettua dividendo il numero da convertire più volte sempre per 2.
+a binario si effettua dividendo il numero da convertire più volte sempre per 2.
 
 {: .highlight }
 I resti delle divisioni letti dal basso verso l'alto compongono il numero binario.
@@ -200,7 +200,7 @@ che si opera in base 2 quindi con le regole che seguono:
 
 Vediamo quindi come sommare 2 numeri: _X_ e _Y_.
 Li scriviamo in colonna, li allineiamo a destra,
-e aggiungimo in alto una riga con il riporto.
+e aggiungiamo in alto una riga con il riporto.
 
 Scegliamo ad esempio i numeri binari:
 

@@ -20,7 +20,7 @@ Selezionare _Start coding_. Apparirà questa schermata:
 
 ![](usage1.png)
 
-Pe rimpostare un layout più comodo, selezionare l'icona delle opzioni
+Per rimpostare un layout più comodo, selezionare l'icona delle opzioni
 del programma e selezionare l'opzione _Show functions_.
 
 Selezionare poi una freccia, ad esempio all'inizio l'unica presente
@@ -33,7 +33,7 @@ fra _Begin_ e _End_, e selezionare quale blocco inserire fra quelli proposti dal
 FlowRun differisce dagli schemi spesso fatti alla lavagna in quanto necessita
 di una dichiarazione esplicita delle variabili usate (blocco _Declare_)
 e dal fatto che non permette alle frecce di essere disegnate
-e connessa a piacere con i blocchi.
+e connesse a piacere con i blocchi.
 
 ### Declare (dichiarazione)
 
@@ -101,7 +101,7 @@ Nelle espressioni è possibile utilizzare le operazioni:
 - `-` sottrazione.
 - `*` moltiplicazione.
 - `/` divisione, sia per numeri interi che per numeri reali.
-- `%` resto della devisione nel caso di numero interi, detto _modulo_.
+- `%` resto della divisione nel caso di numeri interi, detto _modulo_.
 
 È possibile anche usare le parentesi tonde `(` e `)` come nelle espressioni matematiche.
 Se sono necessari più livelli di parentesi, usate sempre le tonde, non le quadre
@@ -150,10 +150,10 @@ cioè deve essere stata dichiarata in precedenza.
 È possibile usare qualunque espressione, anche complessa, in un'assegnazione.
 
 {: .highlight }
-Non dichiarare una variabile e per poi assegnargli un valore subito dopo.
+Non dichiarare una variabile per poi assegnarle un valore subito dopo.
 Specifica direttamente quel valore nel blocco _Declare_.
 
-L'assegnazione è per cambiare valore a una variabile presistente.
+L'assegnazione è per cambiare valore a una variabile preesistente.
 Si può usare il valore della stessa variabile poco prima che questa
 cambi valore, ad esempio nel caso `n = n + 1`, che incrementa
 la variabile `n` di uno.
@@ -252,7 +252,7 @@ di `1` fino a raggiungere un valore massimo (incluso) impostato nell'esempio a `
 In questo caso il blocco viene ripetuto 11 volte. Il contatore `i` è una
 variabile vera e propria gestita e incrementata dal blocco _For_ che può
 essere usata nelle istruzioni ripetute, es. se messa in un'istruzione _Output_
-questa stamperà tutti i numeri da 0 a 11, come nell'esempio.
+questa stamperà tutti i numeri da 0 a 10, come nell'esempio.
 
 Sia il valore di inizio, di fine e l'incremento possono essere espressioni,
 es. si può chiedere all'utente fino a che numero `n` contare
