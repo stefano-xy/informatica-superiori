@@ -611,13 +611,13 @@ Sulle liste si possono fare molte cose ma principalmente 2:
    Esempio:
 
 ```python
-citta = ["Roma", "Milano"]
+citta = ["Roma", "Milano", "Palermo"]
 if "Perugia" in citta:
   print("Bene")
 else:
   print("Manca Perugia!")
 
-if 10 in [0, 50, 10, 15]:
+if 10 in [5, 10, 15, 20, 25, 30]:
   print("10 è nella tabellina del 5")
 ```
 
