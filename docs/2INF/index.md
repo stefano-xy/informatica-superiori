@@ -34,8 +34,7 @@ dell'indirizzo Informatico (2° anno), con il seguente programma:
   - Istruzioni _Python_ corrispondenti ai blocchi dei diagrammi di flusso.
   - Indentazione in _Python_.
   - Definizione di funzioni.
-  - Sequenze (`list`) e associazioni (`dict`).
-  - Utilizzo di notebooks in _Google Colab_.
+  - Sequenze (`list`).
 - Diagrammi di esempio con codice _Python_ corrispondente.
 - [Esercitazioni](esercitazioni/index.md) con diagrammi a blocchi e in _Python_.
 - Pagine Web.

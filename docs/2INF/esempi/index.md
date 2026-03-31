@@ -14,8 +14,8 @@ Alcuni esercizi con _Python_ spiegati.
 
 Possiamo scrivere e verificare questi programmi su:
 
-- [FARE](https://fare.polito.it/python), ambiente del Politecnico di Torino.
 - [Online GDB](https://www.onlinegdb.com), ricordandoci di selezionare _Python 3_ da menù in alto a destra.
+- [FARE](https://fare.polito.it/python), ambiente del Politecnico di Torino.
 
 ## Numeri primi
 
