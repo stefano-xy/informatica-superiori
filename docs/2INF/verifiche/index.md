@@ -194,3 +194,123 @@ Risolvere con [FlowRun](https://www.flowrun.io).
    [Soluzione v1](verifica2b/es4_morra_cinese_v1.flowrun){: .btn }
    [Soluzione v2](verifica2b/es4_morra_cinese_v2.flowrun){: .btn }
    [Soluzione v3](verifica2b/es4_morra_cinese_v3.flowrun){: .btn }
+
+## Verifica 3: algoritmi in Python
+
+_(in via di pubblicazione)_
+
+## Verifica 4: funzioni in Python
+
+Per risolvere questi esercizi partiamo da un file che contiene già delle funzioni
+che possono (e devono) essere utilizzate nelle soluzioni della verifica.
+I file contengono anche il testo dell'esercizio.
+
+1. Ordine di un negozio online
+
+   ```python
+   def netto(totale):
+       """Calcola il netto a partire dal totale compreso di IVA"""
+       return round(100 / (100 + 22) * totale, 2)
+
+   def iva(totale):
+       """Calcola l'IVA scorporandola dal totale compreso di IVA"""
+       return round(totale - netto(totale), 2)
+   ```
+
+   Chiediamo all'utente quanti acquisti ha fatto.
+
+   Per ogni acquisto:
+   - chiediamo il nome dell'oggetto,
+   - la quantità,
+   - il prezzo del singolo oggetto.
+
+   Stampiamo alla fine quanto è il totale dell'ordine, IVA inclusa.
+   Stampiamo poi il prezzo netto e l'IVA dell'ordine,
+   utilizzando le funzioni `netto()` e `iva()` definite sopra.
+
+   [Testo](verifica4/testi/es1_shop.py){: .btn }
+   [Soluzione](verifica4/es1_shop.py){: .btn }
+
+2. Prove di Formula 1
+
+   ```python
+   def time_str(time_ms):
+      """
+      Funzione che dato un tempo in millisecondi totali (time_ms)
+      lo restituisce come stringa, espresso nel formato M:SS.MS
+      """
+      mm = time_ms // (1000 * 60)
+      ss = (time_ms - mm * 1000 * 60) // 1000
+      ms = time_ms % 1000
+      return f"{mm}:{ss:02d}.{ms:03d}"
+   ```
+
+   Un'auto di Formula 1 fa tre giri di prova all'Autodromo di Monza.
+   Chiedere quanti minuti, secondi e millesimi di secondo
+   l'auto ha impiegato per concludere ogni giro.
+   Calcolare quale è il giro più veloce e stampare il tempo.
+
+   Il calcolo deve essere fatto in millisecondi totali.
+   Usare la funzione `time_str()` per convertire i millisecondi
+   totale in un'espressione leggibile.
+
+   Esempio:
+
+   - _Giro 1, minuti?_
+   - _Giro 1, secondi?_
+   - _Giro 1, millisecondi?_
+   - _Giro 2, minuti?_
+   - ...
+   - _Giro più veloce: ..._
+   - _Tempo: ..._
+
+   [Testo](verifica4/testi/es2_formula1.py){: .btn }
+   [Soluzione](verifica4/es2_formula1.py){: .btn }
+
+3. Nomi-Cose-Città
+
+   ```python
+   from random import choices
+   from string import ascii_uppercase
+
+   def random_letters(n):
+      """Genera una lista con n lettere maiuscole casuali"""
+      return choices(ascii_uppercase, k=n)
+
+   def starts_with(text, letter):
+      """
+      Restisce True se un testo comincia con una lettera,
+      False in caso contrario. Ignora maiuscole e minuscole.
+      """
+      return text.upper().startswith(letter)
+   ```
+
+   Giochiamo con 5 lettere a caso. Per ogni lettera, chiediamo all'utente
+   di inserire una parola (un nome, una cosa, una città) che cominci con quella lettera.
+
+   1. Scrivere una funzione `ask(what, letter)` che chiede all'utente
+      una parola di un certo tipo (`what`: nome, cosa, città) e verifichi
+      che questa cominci con la lettera (`letter`) scelta.
+      Usare la funzione `starts_with()` (vedi sopra) per fare questa verifica.
+      Se l'utente inserisce una parola che non comincia
+      con la lettera giusta, ripetere la domanda.
+
+   2. Per ogni lettera del gioco (ne vogliamo 5 a caso) chiedere all'utente
+      un nome, una cosa e una città utilizzando la funzione `ask()` del punto sopra.
+      Usiamo la funzione `random_letters()` (vedi sopra) per scegliere 5 lettere a caso.
+      Stampare in una riga cosa ha inserito l'utente
+      e poi passare alla lettera successiva.
+
+   Esempio:
+
+   - _È uscita la S_
+   - _Un nome con la S? ..._
+   - _Una cosa con la S? ..._
+   - _Una città con la S? ..._
+   - _Hai detto: Sxxx, Syyy, Szzz_
+   - _È uscita la F_
+   - _Un nome con la F? ..._
+   - ...
+
+   [Testo](verifica4/testi/es3_nomi_cose_citta.py){: .btn }
+   [Soluzione](verifica4/es3_nomi_cose_citta.py){: .btn }
