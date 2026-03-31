@@ -7,7 +7,7 @@ def random_letters(n):
 
 def starts_with(text, letter):
     """
-    Restisce True se un testo comincia con una lettera,
+    Restituisce True se un testo comincia con una lettera,
     False in caso contrario. Ignora maiuscole e minuscole.
     """
     return text.upper().startswith(letter)
